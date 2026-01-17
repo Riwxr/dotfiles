@@ -1,0 +1,22 @@
+*
+!.gitignore
+git add ~/.config/fastfetch
+git add ~/.config/fish
+git add ~/.config/flameshot
+git add ~/.config/hyprscratch
+git add ~/.config/kitty
+git add ~/.config/mpd
+git add ~/.config/nvim
+git add ~/.config/qalculate
+git add ~/.config/rmpc
+git add ~/.config/rofi
+git add ~/.config/swayosd
+git add ~/.config/waybar
+git add ~/.config/yazi
+git add ~/.config/copyq
+git add ~/.config/hypr
+
+git add ~/rmpc
+git add ~/rofi
+git add ~/scripts
+
