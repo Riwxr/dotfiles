@@ -1,0 +1,11 @@
+
+configuration {
+    font: "IosevkaTermSlab Nerd Font 12";
+    terminal: "kitty";
+
+    filebrowser {
+        directories-first: true;
+        sorting-method: "name";
+    }
+}
+@theme "~/.config/rofi/theme/catppuccin-default.rasi"

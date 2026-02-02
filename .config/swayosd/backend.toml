@@ -1,0 +1,4 @@
+[input]
+## completely ignore the caps lock key (useful if it's rebound to something else like escape)
+ignore_caps_lock_key = true
+ignore_num_lock_key = true

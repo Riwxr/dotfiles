@@ -1,0 +1,288 @@
+/* Global styles */
+
+* {
+	font-family: "IosevkaTermSlab Nerd Font Propo", "Symbols Nerd Font", sans-serif;
+	font-size: 14px;
+	min-height: 0;
+}
+
+window#waybar {
+	background: transparent;
+	color: #c0caf5;
+}
+
+/* Container sections - fully transparent */
+.modules-left,
+.modules-center,
+.modules-right {
+	background: transparent;
+	margin: 2px 6px;
+	padding: 0 4px;
+	border-radius: 4px;
+	border: none;
+}
+
+.modules-left {
+	padding: 0 2px;
+	font-family: Outfit;
+
+}
+
+.modules-center {
+	padding: 0 8px;
+}
+
+
+/* Workspaces */
+#workspaces {
+	margin: 0;
+	font-family: Outfit;
+	padding: 0;
+}
+
+#workspaces button {
+	background: transparent;
+	color: #c0caf5;
+	padding: 0 3px;
+	margin: 0 1px;
+	border: none;
+	border-radius: 3px;
+	font-family: Outfit;
+	font-size: 14px;
+	font-weight: bold;
+	transition: all 0.2s ease;
+	min-height: 18px;
+	box-shadow: none;
+	text-decoration: none;
+}
+
+#workspaces button:hover {
+	background: rgba(192, 202, 245, 0.08);
+	font-weight: 600;
+	font-family: Outfit;
+	font-size: 14px;
+}
+
+#workspaces button.active {
+	background: rgba(136, 192, 208, 0.15);
+	font-family: Outfit;
+	color: #B8C1EB;
+}
+
+#submap {
+	color: #F77069;
+	font-weight: 900;
+	background: rgba(136, 192, 208, 0.15);
+	font-size: 15px;
+	border-radius: 3px;
+}
+
+/* Clock */
+#custom-clock {
+	padding: 0 7px;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+	color: aliceblue;
+	font-family: Outfit;
+	font-size: 15px;
+	background: rgba(192, 202, 245, 0.08);
+}
+
+/* Right modules common styling */
+#pulseaudio,
+#network,
+#custom-notification,
+#custom-todo,
+#backlight,
+#bluetooth,
+#battery {
+	padding: 0 6px;
+	margin: 0 1px;
+	border-radius: 3px;
+	transition: background-color 0.2s ease;
+	font-weight: 600;
+	font-family: Outfit;
+	font-size: 14px;
+	background: rgba(192, 202, 245, 0.08);
+}
+
+
+#custom-todo:hover,
+#custom-notification:hover,
+#backlight:hover,
+#pulseaudio:hover,
+#network:hover,
+#battery:hover {
+	background: rgba(192, 202, 245, 0.06);
+	font-size: 14px;
+}
+
+/* Network */
+#network {
+	font-weight: 600;
+	font-family: Outfit;
+	font-size: 14px;
+	color: #7aa2f7;
+}
+
+#network.disconnected {
+	color: #f7768e;
+}
+
+#network.unavailable {
+	color: #565f89;
+}
+
+
+#bluetooth {
+	color: #C3E1C2;
+	font-weight: 600;
+	font-family: Outfit;
+	font-size: 14px;
+}
+
+
+
+/* Pulseaudio */
+#pulseaudio {
+	font-weight: 600;
+	font-family: Outfit;
+	font-size: 14px;
+	color: #b9b7f7;
+}
+
+#pulseaudio.muted {
+	color: #565f89;
+}
+
+/* Battery */
+#battery {
+	font-weight: 600;
+	font-family: Outfit;
+	font-size: 14px;
+	color: #9ece6a;
+}
+
+#battery.charging {
+	color: #7dcfff;
+}
+
+#battery.warning {
+	color: #e0af68;
+}
+
+#battery.critical {
+	color: #ffffff;
+	animation: blink 0.5s linear infinite alternate;
+	background: rgba(250, 100, 117, 0.30)
+}
+
+/* Battery 2 - if you have dual battery */
+#battery.bat2 {
+	margin-left: 0;
+}
+
+#backlight {
+	color: #F7F7B1;
+	font-weight: 600;
+	font-family: Outfit;
+	font-size: 14px;
+}
+
+
+#custom-mpris-title {
+	font-weight: 600;
+	font-family: Outfit;
+	font-size: 14px;
+	background: rgba(57, 75, 107, .6)
+}
+
+#mpris {
+	font-weight: 600;
+	font-family: Outfit;
+	font-size: 13px;
+	color: #B7BDF8;
+	background: rgba(57, 75, 107, .6);
+	padding: 1px 4px;
+	border-radius: 3px;
+}
+
+#custom-shitmode {
+	color: #FFFFFF;
+	border-radius: 3px;
+	background: rgba(218, 193, 161, .3);
+	font-size: 14px;
+
+}
+
+#custom-todo {
+	color: #ECBBBB;
+	font-weight: 600;
+	font-family: Outfit;
+	font-size: 14px;
+}
+
+#custon-launcher {
+	color: #663399;
+	font-size: 18px;
+}
+
+#custom-rmpc {
+	background: rgba(136, 192, 208, 0.15);
+	font-size: 11px;
+	border-radius: 3px;
+}
+
+#custom-rmpc:hover {
+	background: rgba(66, 70, 124, 0.20);
+	color: #b9b7f7;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+#mpris.paused {
+	background: rgba(136, 192, 208, 0.15);
+}
+
+#mpris.playing {
+	background: linear-gradient(90deg,
+			rgba(255, 255, 255, 0.05) 0%,
+			rgba(255, 255, 255, 0.25) 50%,
+			rgba(255, 255, 255, 0.05) 100%);
+	background-size: 200% 100%;
+	animation: wave 1.5s linear infinite;
+}
+
+
+@keyframes wave {
+	from {
+		background-position: 0% 0%;
+	}
+
+	to {
+		background-position: 200% 0%;
+	}
+}
+
+/* Animation for critical battery */
+@keyframes blink {
+	to {
+		color: #ff3333;
+	}
+}
+
+/* Tooltip styling */
+tooltip {
+	background: rgba(20, 22, 30, 0.5);
+	border: 1px solid rgba(192, 202, 245, 0.2);
+	border-radius: 5px;
+	padding: 2px;
+}
+
+tooltip label {
+	color: #c0caf5;
+	font-size: 13px;
+	font-family: Outfit;
+	font-weight: 600;
+}

@@ -1,0 +1,293 @@
+	// -*- mode: jsonc -*-
+{
+    "layer": "top", // Waybar at top layer
+    //"position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 24, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "margin-right": -12,
+    "margin-left": -10,
+    "margin-top": 1,
+    "margin-bottom": -3,
+    "spacing": 6, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+        "custom/launcher",
+	"hyprland/workspaces",
+  	"mpris",
+	//"custom/mpris-toggle",
+	//"custom/mpris-title",
+        "hyprland/submap",
+	"custom/rmpc",
+
+    ],
+    "modules-center": [
+        //"clock",
+        "custom/clock",
+	],
+    "modules-right": [
+        //"tray",
+	"custom/shitmode",
+	"custom/todo",
+	"bluetooth",
+	//"custom/notification",
+	"network",
+	"pulseaudio",
+	"backlight",
+        "battery",
+	"custom/powermenu",
+],
+
+
+
+// Modules configuration
+
+"hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+	"persistent-workspaces": [1],
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+           "10": "10",
+	   "urgent": "◆",
+           // "active": "◆",
+           // "default": "◇"
+        },
+	"on-click": "~/scripts/waybarrefresh.sh"
+    },
+
+
+"hyprland/submap": {
+	"format": "  {} ",
+	"max-length": 30,
+	"tooltip": false,
+    "on-click": "hyprctl dispatch submap",
+
+}, 
+
+"clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%A | %e %B}"
+    },
+
+"custom/clock": {
+    "exec": "~/scripts/waybarclock.sh",
+    "format": "{}",
+    "signal": 3,
+    "interval": 30,
+},
+
+"custom/launcher": {
+	"format": "▏",
+	"on-click": "exec rofi -show drun -theme ~/.config/rofi/theme/catppuccin-default.rasi",
+	"on-click-right": "~/scripts/squeekboard.sh",	
+	"tooltip": false,
+
+},
+
+
+"custom/powermenu": {
+	"format": "▕",
+	"on-click": "exec /home/riwxr/dotfiles/.config/rofi/powermenu/powermenu.sh",
+	"on-click-right": "exec swaync-client -t",
+	"tooltip": false,
+
+},
+
+"tray": {
+	"format": "[ {} ]",
+	"icon-size": 18,
+	"spacing": 7,
+},
+
+"battery": {
+        "interval": 1,
+	"states": {
+            //"good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}   {capacity}%",
+        "format-full": "{icon}   {capacity}%",
+        "format-charging": "   {capacity}%",
+        "format-plugged": "   {capacity}%",
+        //"format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""],
+
+    "on-click-right": "~/scripts/battery_alert.sh shit",
+    "on-click-middle": "~/scripts/battery_alert.sh shit-off",
+
+},
+
+"custom/shitmode": {
+    "exec": "~/scripts/waybarshit.sh",
+    "interval": 1,
+    "tooltip-format": "Tattiiii!!",
+},
+
+"network": {
+    "format-wifi": "{icon}   {essid}",
+    "format-ethernet": "{ipaddr}/{cidr} ",
+    "tooltip-format": "{essid} ({signalStrength}%)",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "󰤭   Disconnected",
+    "on-click": "sh ~/scripts/rofi-wifi-menu/rofi-wifi-menu.sh",
+
+    // Dynamic Wi-Fi icons from worst → best
+    "format-icons": [
+        "󰤯",  // 0-20%
+        "󰤟",  // 20-40%
+        "󰤢",  // 40-60%
+        "󰤥",  // 60-80%
+        "󰤨"   // 80-100%
+    ]
+},
+
+
+
+"bluetooth": {
+  // Only needed if multiple adapters exist
+  // "controller": "controller1",
+
+  // Hide when Bluetooth is off or not connected
+  "format-off": "",
+  "format-disabled": "",
+  "format-disconnected": "",
+  "format-on": "",
+  // Show only when Bluetooth is powered and connected
+  "format-connected": "   {device_alias}",
+
+  // Optional: tooltip shows connected devices
+  "tooltip-format-connected": "{device_enumerate}",
+  "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+},
+
+
+  "pulseaudio": {
+    // "rotate": 90,
+    "format": "{icon}   {volume}%",
+    "format-bluetooth": "{icon}  {volume}%",
+    "format-muted": "    {volume}%",
+    "format-icons": {
+      "headphones": "",
+      "handsfree": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+	"",
+        " "
+      ]
+    },
+    "scroll-step": 1,
+    "on-click": "pgrep pavucontrol && killall pavucontrol || pavucontrol &",
+    "on-click-right": "wpctl set-mute @DEFAULT_SINK@ toggle",
+    "on-click-middle": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+
+},
+
+  "backlight": {
+        "format": "{icon}   {percent}%",
+        "format-icons": ["","󰃜", "󰃛", "󰃞","󰃝","󰃟","󰃠"],
+        "on-click-right": "~/brightness.sh down",
+	"on-click-middle": "~/brightness.sh up",
+	"tooltip": false,
+  },
+
+
+"custom/rmpc": {
+	"exec": "~/rmpc/rmpcwaybaricon.sh",
+	"return-type": "string",
+	"format": " {} ",
+	"on-click": "~/rmpc/rmpctogglepause.sh",
+	"on-click-right": "~/rmpc/toggle_rmpc.sh",
+	"interval": 1,
+},
+
+
+ "custom/todo": {
+	"exec": "sh -c \"grep -E '\\\\[ \\\\].{2,}' ~/vimwiki/Todo.md | wc -l\"",
+	"return-type": "string",
+        "format": "   {} todos",
+	"on-click": "kitty -e nvim ~/vimwiki/Todo.md",
+        "interval": 1,
+        "tooltip": false,
+
+},
+
+
+
+"mpris": {
+  "exec": "~/player_title.sh",
+  "tooltip": false,
+  "format": " <span font='IosevkaTermSlab Nerd Font Propo ExtraBold' size='11500'>[ {status_icon} </span>|  {title} <span font='IosevkaTermSlab Nerd Font Propo ExtraBold' size='11500'>]</span> ",
+  "title-len": 40,
+  "ellipsis": "_",
+  "status-icons": {
+    "paused": "",
+    "playing": "",
+    "stopped": "󰓛",
+  },
+
+  "on-click": "playerctl play-pause",
+  "on-click-middle": "playerctl previous",
+  "on-click-right": "playerctl next"
+},
+
+  "custom/notification": {
+    "tooltip": true,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "󱅫",
+      "none": "󰂜",
+      "dnd-notification": "󰂠",
+      "dnd-none": "󰪓",
+      "inhibited-notification": "󰂛",
+      "inhibited-none": "󰪑",
+      "dnd-inhibited-notification": "󰂛",
+      "dnd-inhibited-none": "󰪑"
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+"custom/mpris-toggle": {
+    "exec": "~/player_status.sh",
+    "return-type": "string",
+    "format": " {}  |",
+    "tooltip": false,
+    "interval": 1,
+  "on-click": "playerctl play-pause",
+  "on-click-middle": "playerctl previous",
+  "on-click-right": "playerctl next",
+},
+
+
+"custom/mpris-title": {
+    "exec": "~/player_title.sh",
+    "return-type": "string",
+    "format": " {}  ",
+    "tooltip": false,
+    "markup": "none",
+    "interval": 1,
+    "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl next",
+    "on-click-middle": "playerctl previous"
+},
+
+}
