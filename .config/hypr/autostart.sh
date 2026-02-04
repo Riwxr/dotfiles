@@ -39,7 +39,7 @@ sleep 4
 adb -s $ANDROID_IP:5555 shell svc bluetooth enable
 notify_osd "Bluetooth enabled on Android"
 sleep 4
-
+~/scripts/brightness.sh 0
 # Power on local Bluetooth and connect
 bluetoothctl power on
 bluetoothctl connect 98:B8:BC:59:24:E6

@@ -2,7 +2,7 @@
  
 [[ $1 == c ]] && rmpc clear
 
-title=$(rmpc listall | { echo ":"; cat; } | fzf)
+title=$(rmpc listall | { echo ":"; cat; } | fzf -i)
 
 
 if [[ $title == : ]]; then

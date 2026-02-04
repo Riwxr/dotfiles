@@ -22,7 +22,7 @@ done
 if (( smaller == 0 && larger == 1 )); then
     if [[ $1 == "L" ]]; then
         if [[ $x == 2 ]]; then
-		hyprctl dispatch workspace $z
+		hyprctl dispatch workspace 1
 		exit 0
 	else
 		exit 0
@@ -41,6 +41,10 @@ if (( smaller == 1 && larger == 0 )); then
 fi
 
 if [[ $1 == "L" ]]; then
+        if [[ $x == 2 ]]; then
+		hyprctl dispatch workspace 1
+		exit 0
+	fi
 	hyprctl dispatch workspace e-1 
 elif [[ $1 == "R" ]]; then
 	hyprctl dispatch workspace e+1

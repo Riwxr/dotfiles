@@ -1,3 +1,6 @@
-!#/usr/bin/env bash
+!# /usr/bin/env bash
 
-swayosd-client --custom-message $(rmpc song | jq -r '.metadata | "\(.title)  -  \(.artist)"')
+z=$(rmpc song | jq -r '.metadata | "\(.title)  -  \(.artist)"')
+
+swayosd-client --custom-message "$z"
+

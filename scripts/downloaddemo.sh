@@ -12,19 +12,22 @@ pro() {
 	bar=$added$remaining
 }
 
+done=$1
+total=$2
+title=$3
+id=$4
 
-id=$(notify-send -p "Downloding $blank" " 0% : $emptybar")
+percent=$(( done * 100 / total ))
 
-for i in {1..100}; do
-  echo "$i"
-  pro $i
-  if [[ $i == 100 ]]; then
-	  notify-send --replace-id $id "Downloaded $blank" " $i% : $blank$bar" 
-  else
-	  notify-send --replace-id $id -a repeat "Downloding $blank" " $i% : $blank$bar"  
-  
-  fi
-  sleep .1
-done
+pro "$percent"
 
 
+#id=$(notify-send -p "Downloding $title $blank" " 0% : $emptybar")
+if [[ $percent -eq 100 ]]; then
+	state="Download Complete--  "
+	app=compl
+else
+	state="Downloading--  "
+	app=repeat
+fi
+notify-send --replace-id=$id -a "$app" "$state$title$blank" " $done/$total : $blank$bar"

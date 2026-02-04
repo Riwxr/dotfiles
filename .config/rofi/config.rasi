@@ -99,10 +99,7 @@ configuration {
     }
 
 	/*---------- Other settings ----------*/
-    timeout {
-      action: "kb-cancel";
-      delay:  3;
-    }
+
 
 	/*---------- Keybindings ----------*/
 /*

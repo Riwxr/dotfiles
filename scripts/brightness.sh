@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE="$HOME/.config/quickshell/quickshell-examples-master/activate_linux/shell.qml"
+FILE="$HOME/.config/quickshell/dim/dimshell.qml"
 STEP=0.10
 MIN=0.0
 MAX=0.9

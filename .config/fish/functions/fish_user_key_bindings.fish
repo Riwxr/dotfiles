@@ -1,5 +1,6 @@
 function fish_user_key_bindings
     bind \ev __toggle_nvim
+    bind \ez __toggle_sleep
     bind \ex __clear_commandline
     bind \ey __toggle_wlcopy
 end
@@ -27,6 +28,28 @@ function __toggle_wlcopy
     else
         # Add wl-copy
         set cmd "$cmd | wl-copy"
+    end
+
+    commandline -r $cmd
+end
+
+function __toggle_sleep
+    set cmd (commandline)
+
+    # If buffer empty, pull last command
+    if test -z "$cmd"
+        set cmd (history --max=1)
+    end
+
+    if test -z "$cmd"
+        return
+    end
+
+    # Toggle nvim
+    if string match -rq '^sleep 2 &&\s+' -- $cmd
+        set cmd (string replace -r '^sleep 2 &&\s+' '' -- $cmd)
+    else
+        set cmd "sleep 2 && $cmd"
     end
 
     commandline -r $cmd

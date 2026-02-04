@@ -16,26 +16,8 @@ logging() {
 }
 
 # log files
-find ~/scripts \
-~/.config/hypr \
-~/.config/alacritty \
-~/.config/fish \
-~/.config/fastfetch \
-~/.config/autostart \
-~/.config/bat \
-~/.config/flameshot \
-~/.config/kitty \
-~/.config/nvim \
-~/.config/quickshell/quickshell-examples-master \
-~/.config/quickshell/wayrep \
-~/.config/rmpc \
-~/.config/rofi \
-~/.config/swayosd \
-~/.config/swaync \
-~/.config/waybar \
-~/.config/yazi \
-~/.config/zathura \
--type f | sed "s|$HOME/||" > $LIST
+find ~/dotfiles/scripts/ ~/dotfiles/.config/ \
+-type f | sed "s|$HOME/dotfiles/||" > $LIST
 echo "\`" >> $LIST
 
 
@@ -46,7 +28,7 @@ if [ -z "$chosen" ]; then
 	exit 125
 elif [[ $chosen == "\`" ]]; then
 	filename=scripts/$(echo "" | fzf --print-query --prompt="Filename : ").sh	
-	filepath=/home/riwxr/$filename
+	filepath=/home/riwxr/dotfiles/$filename
 	if [ -e $filepath ]; then
 		notify-send "Task failed $blank" "file already exist, openning existing file"		
 	else
