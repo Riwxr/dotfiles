@@ -38,6 +38,8 @@ elif [ "$active_class" = "sleek" ]; then
 elif [ "$active_class" = "rmpc" ]; then
     /usr/local/bin/hyprscratch rmpc toggle
 
+elif [ "$active_class" = "fzfscripts" ]; then
+	/usr/local/bin/hyprscratch fzfscripts toggle
 elif [ "$active_class" = "org.kde.kdeconnect.app" ]; then
     /usr/local/bin/hyprscratch "KDE Connect" toggle
 
