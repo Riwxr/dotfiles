@@ -16,7 +16,7 @@ CURRENT=$(awk '
 # If not found or invalid, abort
 [[ -z "$CURRENT" ]] && exit 1
 
-clamp() {
+clamp2() { 
     awk -v v="$1" -v min="$MIN" -v max="$MAX" '
         BEGIN {
             if (v < min) v = min
@@ -29,16 +29,16 @@ clamp() {
 case "$1" in
     up)
         NEW=$(awk -v c="$CURRENT" -v s="$STEP" 'BEGIN { printf "%.4f", c + s }')
-        NEW=$(clamp "$NEW")
+        NEW=$(clamp2 "$NEW")
         ;;
     down)
         NEW=$(awk -v c="$CURRENT" -v s="$STEP" 'BEGIN { printf "%.4f", c - s }')
-        NEW=$(clamp "$NEW")
+        NEW=$(clamp2 "$NEW")
         ;;
     *)
         # Direct numeric input
         if [[ "$1" =~ ^[0-9]*\.?[0-9]+$ ]]; then
-            NEW=$(clamp "$1")
+            NEW=$(clamp2 "$1")
         else
             exit 0
         fi

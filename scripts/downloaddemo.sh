@@ -15,7 +15,8 @@ pro() {
 done=$1
 total=$2
 title=$3
-id=$4
+subtitle=$4
+id=$5
 
 percent=$(( done * 100 / total ))
 
@@ -25,9 +26,9 @@ pro "$percent"
 #id=$(notify-send -p "Downloding $title $blank" " 0% : $emptybar")
 if [[ $percent -eq 100 ]]; then
 	state="Download Complete--  "
-	app=compl
+	app="done"
 else
 	state="Downloading--  "
-	app=repeat
+	app="repeat"
 fi
-notify-send --replace-id=$id -a "$app" "$state$title$blank" " $done/$total : $blank$bar"
+notify-send --replace-id=$id -a "$app" "$title" "$state$subtitle$blank $percent%    ($done/$total): $blank$bar"

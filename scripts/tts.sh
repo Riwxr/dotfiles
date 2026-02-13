@@ -17,7 +17,7 @@ id=$(notify-send -p "󰔊  TTS $blank" "TTS Starting   |   "$word" - words." -t 
 
 trap 'notify-send "󰔋  TTS $blank" "TTS killed" --replace-id=$id ; exit 130' SIGINT SIGTERM
 
-kokoro-tts /tmp/tts_input_clean.txt /tmp/tts_output.wav --speed 1.4 --lang en-us --voice "af_river:20,af_sarah:80" --stream
+kokoro-tts /tmp/tts_input_clean.txt /tmp/tts_output.wav --speed 1.6 --lang en-us --voice "af_river:20,af_sarah:80" --stream
 
 status=$?
 

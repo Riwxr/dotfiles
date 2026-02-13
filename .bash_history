@@ -1,89 +1,3 @@
-pip install kokoro-tts
-python3.12 --version
-sudo pacman -S python312
-rm -rf venv
-sudo pacman -S pyenv
-pyenv install 3.11.9
-pyenv local 3.11.9
-rm -rf venv
-python -m venv venv
-source venv/bin/activate
-pip install kokoro-tts
-python3.12 --version
-echo $SHELL
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-which python
-python --version
-rm -rf venv
-python -m venv venv
-source venv/bin/activate
-python --version
-pip install kokoro-tts
-pip install --upgrade pip
-kokoro-tts --hlp
-kokoro-tts in.txt output.wav --speed 1.2 --lang en-us --voice af_sarah
-ls -l in.txt
-ls -l in.txt
-kokoro-tts in.txt output.wav --speed 1.2 --lang en-us --voice af_sarah
-echo "Hello. This is a Kokoro TTS test." > in.txt
-ls -l in.txt
-cat in.txt
-kokoro-tts in.txt output.wav --speed 1.2 --lang en-us --voice af_sarah
-  wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/kokoro-v1.0.onnx
-  wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/voices-v1.0.bin
-kokoro-tts in.txt output.wav --speed 1.2 --lang en-us --voice af_sarah
-kokoro-tts in.txt output.wav --speed 1.2 --lang en-us --voice af_sarah
-source venv/bin/activate
-z kokoro_project/
-cd kokoro_project/
-source venv/bin/activate
-kokoro-tts in.txt output.wav --speed 2.1 --lang en-us --voice af_sarah
-history 
-pyenv activate walenv
-pip install pywal
-source ~/.venvs/walenv/bin/activate
-pip install pywal
-pip install --upgrade pip
-which wal
-wal --version
-python --version
-rm -rf ~/.cache/wal
-wal -i /path/to/wallpaper
-wal -i ~/Pictures/Wallpaper/wallhaven-boat.jpg 
-wal -R
-echo $PATH | grep -q "$HOME/.local/bin" || echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-exec $SHELL
-which wal
-source ~/.venvs/walenv/bin/activate
-wal -i /home/riwxr/Pictures/Wallpaper/wallhaven-doorbluesky.jpg
-wal -i /home/riwxr/Pictures/Wallpaper/wallhaven-doorbluesky.jpg --cols16 dark
-wal -i /home/riwxr/Pictures/Wallpaper/wallhaven-doorbluesky.jpg --cols16 darken
-wal -i /home/riwxr/Pictures/Wallpaper/circle-waveform-abstract-8k-9i.jpg --cols16 darken
-pywal 
-
-pip install schemer2
-wal -i /home/riwxr/Pictures/Wallpaper/circle-waveform-abstract-8k-9i.jpg --backend schemer2
-pip install fast-colors
-wal -i ... --backend fast-colors
-wal -i /home/riwxr/Pictures/Wallpaper/wallhaven-arch2.png --backend fast-colors
-nvim ~/.venvs/walenv/lib/python3.11/site-packages/pywal/colors.py
-fish
-history 
-vim \~/.bashrc
-vim ~/.config/fastfetch/config.jsonc 
-source ./.bashrc 
-source ./.bashrc 
-source ./.bashrc 
-source ./.bashrc 
-vim ./.bashrc
-alacritty -v
-[200~] Width: 477, Height: 523
-[0.092105368s] [INFO ] [alacritty] PTY dimensions: 24 x 57
-sleep 6
-[200~# Ctrl+C → Copy
-[[keyboard.bindings]]
 key = "C"
 mods = "Control"
 action = "Copy"
@@ -498,3 +412,89 @@ grim -s 4 -g "$(slurp)" ~/Pictures/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S")_${US
 grim -s 4 -g "$(slurp)" ~/Pictures/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S")_${USER}.png 
 sleep 2 && grim -s 4 -g "$(slurp)" ~/Pictures/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S")_${USER}.png 
 sleep 2 && grim -s 4 -g "$(slurp)" ~/Pictures/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S")_${USER}.png 
+[[ -z Mirza Yar Bulaonda Tera ]]
+[[ -z "Mirza Yar Bulaonda Tera" ]]
+echo $?
+z="Mirza Yar Bulaonda Tera"
+[[ -z "$z" ]]
+echo $?
+cd Music/Punjabi/
+[[ -z "$z" ]]
+echo $?
+[[ -z "$z" ]]
+ls
+[[ -z "$z".mp3 ]]
+echo $?
+[[ -z "Mirza Yar Bulaonda Tera.mp3" ]]
+echo $?
+cd
+[[ -z "~/Music/Punjabi$z.mp3" ]]
+echo $?
+echo $z
+ls ~/Music/Punjabi$z.mp3
+ls ~/Music/Punjabi"$z".mp3
+ls ~/Music/Punjabi/"$z".mp3
+[[ -z "~/Music/Punjabi/"$z".mp3" ]]
+echo $z
+echo $?
+rofimoji 
+echo $?
+rofimoji 
+[[ -z "~/Music/Punjabi/Daaru.mp3" ]]
+echo $?
+[[ -z "~/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" ]]
+echo $?
+[[ -z "~/Music/Punjabi/"$z".mp3" ]]
+echo $?
+echo $z
+[[ -z "~/Music/Punjabi/"$z".mp3" ]]
+echo $?
+ls ~/Music/Punjabi/"$z".mp3
+ls "~/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3"
+ls "/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" 
+ls "/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" 
+ls "/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" 
+ls "/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" 
+ls '/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3'
+ls '/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3'
+[[ -z "/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" ]]
+echo $?
+ls '/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3'
+which lua-language-server
+ls -l $(which lua-language-server)
+chmod +x /usr/bin/lua-language-server
+sudo chmod +x /usr/bin/lua-language-server
+ls -l $(which lua-language-server)
+/usr/bin/lua-language-server -v
+cat /home/riwxr/.local/state/nvim/lsp.log
+nvim /home/riwxr/.local/state/nvim/lsp.log
+ printf -v dur_fmt "%02d:%02d" 66 666
+echo dur_fmt
+echo $dur_fmt
+printf -v dur_fmt "%02d:%02d" $((dur/60)) $((dur%60))
+dur=540
+printf -v dur_fmt "%02d:%02d" $((dur/60)) $((dur%60))
+echo $dur_fmt
+printf -v dur_fmt "%02d:%02d" $((dur/60)) $((dur%60))
+dur=546
+printf -v dur_fmt "%02d:%02d" $((dur/60)) $((dur%60))
+echo $dur_fmt
+printf "%02d:%02d" $((dur/60)) $((dur%60))
+printf "%02d:%02d" $((dur/60)) $((dur%60))
+grim -g "$(slurp -o -r -c '##ff0000ff')" -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
+grim -s 4 -g "$(slurp -o -r -c '##ff0000ff')" -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
+grim -s 4 -g "$(slurp -o -r)" -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
+grim -s 4 -g "$(slurp)" -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
+grim -s 4 -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
+nano
+ls
+ls
+ls
+grim -s 4 -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
+1
+jh
+ls
+tree
+ZazZwwq
+v
+v

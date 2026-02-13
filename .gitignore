@@ -6,7 +6,7 @@
 .env
 *.key
 *.lock
-.config/copyq/
+.config/copyq/*
 !.config/copyq/themes/
 !.config/copyq/copyq.conf
 !.config/copyq/copyq-commands.ini

@@ -97,7 +97,14 @@ return
 
 		local servers = {
 			basedpyright = {},
-			bashls = {},
+			bashls = {
+				filetypes = { "sh", "bash" },
+				settings = {
+					bashIde = {
+						globPattern = "*.*", -- temporarily match anything
+					},
+				},
+			},
 			cssls = {},
 			html = {},
 			jsonls = {},

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+blank=$(printf "\n ")
 
 links=(
 "https://music.youtube.com/playlist?list=PL3_wNalDIHcJQ6Q1lLDqdyvKd7hL8Inr4&si=VHOL4hncWFkG8FvM"
@@ -9,16 +10,12 @@ links=(
 "https://music.youtube.com/playlist?list=PLT-HHuSJ4y7SuqTlOoTe5Lp3bUIBlcRer&si=-idmHW6wJJ7rxCfP"
 "https://music.youtube.com/playlist?list=PLT-HHuSJ4y7RC1mLU3dNo5hVBGjUsCe49&si=Mas6_9si7iAYZoHT"
 "https://music.youtube.com/playlist?list=PL3_wNalDIHcJR4c9CH2zvMxShLYIGG2yP&si=qTc7H8jdglv_VctG"
+"https://music.youtube.com/playlist?list=PLT-HHuSJ4y7QuyJw5Ow2nAv-xY2Bv7pxr&si=rQXq6esHLydUCWIt"
 )
 
-count=0
-total=${#links[@]}
-
-id=$(notify-send -p "Downloding $title $blank" " 0% : $emptybar")
-
+notify-send "  YT-DLP $blank" "Starting..."
 for link in ${links[@]}; do
-	yt-dlp -n -f bestaudio --extract-audio --audio-format mp3 --embed-thumbnail --add-metadata --yes-playlist -o '~/Music/%(playlist_title)s/%(title)s.%(ext)s' "$link"
-	((count++))
-	~/scripts/downloaddemo.sh $count $total "Music via Ytdlp" $id
+	~/scripts/ytdlp_extanded.sh $link
 done
 
+notify-send "  YT-DLP $blank" "Done"

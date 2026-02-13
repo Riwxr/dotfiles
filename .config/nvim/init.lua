@@ -46,7 +46,7 @@ vim.o.list = true
 vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 --Preview substitutions live in the split window thingy, doesnt look good with transpant bg
-vim.o.inccommand = 'split'
+vim.o.inccommand = "split"
 
 --Show which line your cursor is on
 vim.o.cursorline = true

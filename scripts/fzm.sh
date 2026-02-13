@@ -11,6 +11,12 @@ if [[ $title == : ]]; then
 else
 	rmpc add "$title"
 fi
-
 rmpc play
 
+titlefull=$(rmpc song | jq -r ".metadata.title")
+tit="${titlefull%%[^a-zA-Z0-9._ -]*}"
+app=repeat
+blank=$(printf "\n ")
+
+
+notify-send "  Rmpc - Deamon $blank" "  -   $tit  " -a "$app"
