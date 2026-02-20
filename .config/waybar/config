@@ -1,8 +1,10 @@
 	// -*- mode: jsonc -*-
 {
     "layer": "top", // Waybar at top layer
-    //"position": "bottom", // Waybar position (top|bottom|left|right)
+    //"position": "top", // Waybar position (top|bottom|left|right)
     "height": 24, // Waybar height (to be removed for auto height)
+    //"mode": "hide",
+    //"hidden_state": "auto",
     // "width": 1280, // Waybar width
     "margin-right": -12,
     "margin-left": -10,
@@ -25,10 +27,11 @@
         "custom/clock",
 	],
     "modules-right": [
-        //"tray",
+    //"custom/data",
+    //"tray",
 	"custom/shitmode",
 	"custom/todo",
-	"bluetooth",
+    "bluetooth",
 	//"custom/notification",
 	"network",
 	"pulseaudio",
@@ -153,6 +156,11 @@
     ]
 },
 
+"custom/data": {
+  "exec": "~/scripts/data_today.sh",
+  "format": "{}    ",
+  "interval": 60
+},
 
 
 "bluetooth": {

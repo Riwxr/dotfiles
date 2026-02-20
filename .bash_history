@@ -1,45 +1,3 @@
-key = "C"
-mods = "Control"
-action = "Copy"
-# Ctrl+P → Paste
-[[keyboard.bindings]]
-key = "P"
-mods = "Control"
-action = "Paste"
-# Alt+C → send SIGINT (Ctrl+C)
-[[keyboard.bindings]]
-key = "C"
-mods = "Alt"
-chars = "\u0003"
-alacritty -v
-alacritty -v
-VVVVVVVV[200~[[keyboard.bindings]]
-key = "C"
-mods = "Control"
-action = "Copy"
-[[keyboard.bindings]]
-key = "P"
-mods = "Control"
-action = "Paste"
-[[keyboard.bindings]]
-key = "C"
-mods = "Alt"
-chars = "\u0003"
-~[[keyboard.bindings]]
-key = "C"
-mods = "Control"
-action = "Copy"
-[[keyboard.bindings]]
-key = "P"
-mods = "Control"
-action = "Paste"
-[[keyboard.bindings]]
-key = "C"
-mods = "Alt"
-chars = "\u0003"
-[[keyboard.bindings]]
-key = "C"
-mods = "Control"
 action = "Copy"
 [[keyboard.bindings]]
 key = "P"
@@ -498,3 +456,45 @@ tree
 ZazZwwq
 v
 v
+v
+reboot 
+cosmic
+cosmic-greeter-start 
+/tmp//tmp/mpvsocket ]
+
+hyprctl clients -j | jq -r '.[].pid' | fzf 
+for p in $(playerctl -l); do   printf "%-30s -> " "$p";   busctl --user get-property     org.mpris.MediaPlayer2.$p     /org/mpris/MediaPlayer2     org.mpris.MediaPlayer2     ProcessID 2>/dev/null | awk '{print $2}'; done
+busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2
+busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2
+busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2
+busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2 | pid
+busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2 | grep pid
+busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2 | grep play
+busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2 | grep play
+busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2
+busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw
+busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2
+usctl --user list | grep org.mpris.MediaPlayer2.mpv
+usctl --user list | grep org.mpris.MediaPlayer2.mpv
+busctl --user status :1.142
+~/scripts/mpv_window_jankryyy.sh
+echo $?
+~/scripts/mpv_window_jankryyy.sh
+echo $?
+mpv --script-opts=mpv-mpris:service-name=mpv.$$ ~/A21s_Backup/Movies/hehe.mp4 
+mpv --script-opts=mpv-mpris:service-name=mpv.custom ~/A21s_Backup/Movies/hehe.mp4 &
+set mpv_pid $last_pid
+echo $mpv_pid
+usctl --user list | grep mpv
+busctl --user list | grep mpv
+busctl --user list | grep mpv.
+busctl --user list | grep mpv. | 112801busctl --user list | grep mpv. | 112801
+busctl --user list | grep mpv. | 112801
+busctl --user list | grep mpv. | grep 112801
+busctl --user list | grep mpris | grep 112801
+busctl --user list | grep mpris | grep 112801 | grep inst
+busctl --user list | grep mpr
+busctl --user list 
+busctl --user list | grep mpris | grep 112801 | grep inst
+busctl --user list | grep mpris | grep 112801 | grep inst
+busctl --user list | grep mpris | grep 115156 | grep inst
