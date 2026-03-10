@@ -73,22 +73,26 @@ config.set("colors.tabs.selected.odd.bg", "#45475a")
 #   - no-3rdparty: Accept cookies from the same origin only. This is known to break some sites, such as GMail.
 #   - no-unknown-3rdparty: Accept cookies from the same origin only, unless a cookie is already set for the domain. On QtWebEngine, this is the same as no-3rdparty.
 #   - never: Don't accept cookies at all.
+# Normal mode
+config.bind(" ", "fake-key ' '")
 config.set("content.cookies.accept", "all", "chrome-devtools://*")
 c.content.headers.user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-config.bind(" ", "set-cmd-text :")
-config.bind(";L", "hint links spawn --detach ~/scripts/qutebrowser/mpv.sh {hint-url}")
+config.bind(";L", "hint links spawn --detach ~/scripts/qutebrowser/mpv.sh {url}")
 config.bind(";l", "mpvyt")
 config.bind("k", "scroll-page 0 -0.5")
 config.bind("j", "scroll-page 0 .5")
 config.bind("pt", "tab-pin")
 config.bind(";K", "config-source ;; message-info reloaded")
 config.bind("*", "jseval --file ~/.config/qutebrowser/scripts/chatgpt_speed.js")
+config.bind("~", "spawn --userscript tts-selection")
+config.bind("+", "jseval --file ~/.config/qutebrowser/scripts/yt_speed.js")
 c.url.searchengines = {
     "DEFAULT": "https://www.google.com/search?q={}",
     "yt": "https://www.youtube.com/results?search_query={}",
     "ym": "https://music.youtube.com/search?q={}",
     "c": "https://chatgpt.com/?q={}",
     "w": "https://en.wikipedia.org/wiki/{}",
+    "fh": "https://flathub.org/en/apps/search?q={}",
 }
 
 c.aliases = {
@@ -99,6 +103,7 @@ c.aliases = {
     "yt": "open -t https://youtube.com",
     "ym": "open -t https://music.youtube.com",
     "in": "open -t https://instagram.com",
+    "fh": "open -t https://flathub.org/en/",
 }
 
 c.url.auto_search = "naive"
@@ -112,7 +117,7 @@ c.content.blocking.adblock.lists = [
     "https://easylist.to/easylist/fanboy-social.txt",
     "https://secure.fanboy.co.nz/fanboy-annoyance.txt",
     "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt",
-    # "https://gitlab.com/curben/urlhaus-filter/-/raw/master/urlhaus-filter.txt",
+    "https://gitlab.com/curben/urlhaus-filter/-/raw/master/urlhaus-filter.txt",
     "https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts",
     "https://github.com/uBlockOrigin/uAssets/raw/master/filters/legacy.txt",
     "https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters.txt",

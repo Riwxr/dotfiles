@@ -1,4 +1,4 @@
-/* Global styles */
+/* Global styles */ 
 
 * {
 	font-family: "IosevkaTermSlab Nerd Font Propo", "Symbols Nerd Font", sans-serif;
@@ -94,6 +94,7 @@ window#waybar {
 #network,
 #custom-notification,
 #custom-todo,
+#custom-mpv,
 #backlight,
 #bluetooth,
 #battery {

@@ -18,7 +18,8 @@
   	"mpris",
 	//"custom/mpris-toggle",
 	//"custom/mpris-title",
-        "hyprland/submap",
+    "hyprland/submap",
+    "custom/mpv",
 	"custom/rmpc",
 
     ],
@@ -110,6 +111,16 @@
 	"format": "[ {} ]",
 	"icon-size": 18,
 	"spacing": 7,
+},
+
+"custom/mpv": {
+    "exec": "~/scripts/mpv_workspaces.sh",
+    "format": "[ {} ]",
+    "interval": 1,
+    "signal": 3,
+    "tooltip-format": " II/MPV Workspaces ",
+	"on-click": "exec /home/riwxr/scripts/qutebrowser/history_mpv_play.sh",
+	"on-click-right": "exec /home/riwxr/scripts/mpv_window_jankryyy.sh",
 },
 
 "battery": {

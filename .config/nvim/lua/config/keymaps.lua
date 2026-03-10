@@ -1,6 +1,9 @@
 -- Open Oil
 vim.keymap.set("n", "-", "<cmd>Oil --float<CR>", { desc = "Open Parent Directory in Oil" })
 
+-- Open LAZY
+vim.keymap.set("n", "<leader>L", "<cmd>Lazy<CR>", { desc = "Open Lazy Plugins Maneger" })
+
 --Format code
 vim.keymap.set("n", "<leader>c", function()
 	require("conform").format()

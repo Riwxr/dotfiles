@@ -11,6 +11,15 @@ if [[ $x = zen ]]; then
         zen-browser
     fi
 
+elif [[ $x = lutris ]]; then
+    list=$(hyprctl -j clients | jq -r '.[].class' | sort -u | grep "net.lutris.Lutris")
+
+    if [[ -n $list ]]; then
+        hyprctl dispatch focuswindow class:net.lutris.Lutris
+    else
+        lutris
+    fi
+
 elif [[ $x = qutebrowser ]]; then
     list=$(hyprctl -j clients | jq -r '.[].class' | sort -u | grep "org.qutebrowser.qutebrowser")
 

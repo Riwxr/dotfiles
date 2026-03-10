@@ -1,15 +1,17 @@
 #!/usr/bin/env bash
 
-engine=$(printf "Google\nChatgpt\nYt" | rofi -dmenu -l 3 -theme-str 'entry { placeholder: "seach"; placeholder-color: grey;}' -show combi -p "Engine : ")
+swayosd-client --custom-message "Opening"
+
+engine=$(printf "Google\nChatgpt\nYouTube" | walker -d --minheight 1 -p "Search")
 if [[ -n "$engine" ]]; then
     if [[ "$engine" == Google ]]; then
-        query=$(printf "" | rofi -dmenu -l 3 -theme-str 'entry { placeholder: "seach"; placeholder-color: grey;}' -show combi -p "$engine : ")
+        query=$(printf "" | walker -d --minheight 1 -I -p "Google")
         [[ -n "$query" ]] && Url="https://www.google.com/search?q=$query"
     elif [[ "$engine" == Chatgpt ]]; then
-        query=$(printf "" | rofi -dmenu -l 3 -theme-str 'entry { placeholder: "seach"; placeholder-color: grey;}' -show combi -p "$engine : ")
+        query=$(printf "" | walker -d --minheight 1 -p "Chatgpt" -I)
         [[ -n "$query" ]] && Url="https://chatgpt.com/?prompt=$query"
-    elif [[ "$engine" == Yt ]]; then
-        query=$(printf "" | rofi -dmenu -l 3 -theme-str 'entry { placeholder: "seach"; placeholder-color: grey;}' -show combi -p "$engine : ")
+    elif [[ "$engine" == YouTube ]]; then
+        query=$(printf "" | walker -d --minheight 1 -p "YouTube" -I)
         [[ -n "$query" ]] && Url="https://www.youtube.com/results?search_query=$query"
     else
         Url="https://www.google.com/search?q=$engine"

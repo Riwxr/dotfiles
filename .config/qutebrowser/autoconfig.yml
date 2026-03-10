@@ -17,6 +17,7 @@ settings:
   content.javascript.clipboard:
     https://chatgpt.com: access-paste
     https://github.com: access-paste
+    https://htmlcolorcodes.com: access-paste
   content.media.audio_capture:
     https://chatgpt.com: true
     https://www.instagram.com: true

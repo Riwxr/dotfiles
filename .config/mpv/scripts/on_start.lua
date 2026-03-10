@@ -1,5 +1,5 @@
 mp.register_event("file-loaded", function()
-	mp.add_timeout(2, function()
+	mp.add_timeout(0.2, function()
 		mp.commandv("run", "/home/riwxr/scripts/mpv_window_sorting.sh")
 	end)
 end)

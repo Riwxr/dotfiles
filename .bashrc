@@ -29,17 +29,15 @@ if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
 fi
 
-
-
 # Todo list all take in order they were created and doesnt conflit while flushing and clearing the console
 t() {
     # Archive completed tasks (skip mkdir since folder exists)
-    grep -rl "STATUS:COMPLETED" ~/.local/share/calendars/personal 2>/dev/null \
-    | sort | xargs -r mv -t ~/.local/share/todoman/archive/
-    
+    grep -rl "STATUS:COMPLETED" ~/.local/share/calendars/personal 2>/dev/null |
+        sort | xargs -r mv -t ~/.local/share/todoman/archive/
+
     # Flush and list/execute
     command todo flush --yes
-    
+
     if [ $# -eq 0 ]; then
         clear
         command todo list --sort -created_at
@@ -51,7 +49,7 @@ t() {
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
-# NeoVim 
+# NeoVim
 export PATH="$PATH:/opt/nvim/"
 export EDITOR=nvim
 export VISUAL=nvim
@@ -61,7 +59,7 @@ alias v='XDG_CONFIG_HOME=$HOME/.config/nvim-fresh XDG_DATA_HOME=$HOME/.local/sha
 PS1="\[\e[1;38;5;189m\]\w\[\e[0m\] \[\e[1;38;5;250m\]#\[\e[0m\] "
 
 bat -p ~/banner6.txt
-			
+
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#313244,bg:#1E1E2E,spinner:#F5E0DC,hl:#F38BA8 \
 --color=fg:#CDD6F4,header:#F38BA8,info:#CBA6F7,pointer:#F5E0DC \

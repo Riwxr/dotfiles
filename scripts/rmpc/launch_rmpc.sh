@@ -7,6 +7,4 @@ if hyprctl clients | grep -q '"class": "rmpc"'; then
     exit 0
 fi
 
-
-kitty --class rmpc --title rmpc rmpc
-
+foot --app-id rmpc --title rmpc rmpc

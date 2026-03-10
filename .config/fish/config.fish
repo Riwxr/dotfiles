@@ -1,12 +1,11 @@
 
-
 if status is-interactive
 	set_color $fish_color_keyword -o
-	cat -p ~/banner5.txt
+	cat -p ~/banner4.txt
 	set_color normal
 	
 
-    set -U fish_greeting "  "
+    set -U fish_greeting ""
 
     set -gx PATH $HOME/.pyenv/bin $PATH
 

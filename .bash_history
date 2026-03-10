@@ -1,54 +1,3 @@
-action = "Copy"
-[[keyboard.bindings]]
-key = "P"
-mods = "Control"
-action = "Paste"
-[[keyboard.bindings]]
-key = "C"
-mods = "Alt"
-chars = "\u0003"
-[[keyboard.bindings]]
-key = "C"
-mods = "Control"
-action = "Copy"
-[[keyboard.bindings]]
-key = "P"
-mods = "Control"
-action = "Paste"
-[[keyboard.bindings]]
-key = "C"
-mods = "Alt"
-chars = "\u0003"
-[[keyboard.bindings]]
-key = "C"
-mods = "Control"
-action = "Copy"
-[[keyboard.bindings]]
-key = "P"
-mods = "Control"
-action = "Paste"
-[[keyboard.bindings]]
-key = "C"
-mods = "Alt"
-chars = "\u0003"
-vim .config/alacritty/alacritty.toml 
-(( 4-3 ))
-(( 4-3 ))
-echo $?
-(( 4-3 ))
-echo $?
-echo (( 4 - 3 ))
-echo "(( 4 - 3 ))"
-(( 4 - 3 ))
-a=5
-b=3
-(( result = a + b ))
-echo $result
-echo $result
-{$({date +"%H"}):0:1}
-{$(date +"%H"):0:1}
-{123456:0:1}
-echo "You’re not really asking about treachery. You’re asking about power that is *available but unused*, and whether merely having it—or shaping situations so that it exists—is already a moral act.
 
 That distinction matters.
 
@@ -498,3 +447,54 @@ busctl --user list
 busctl --user list | grep mpris | grep 112801 | grep inst
 busctl --user list | grep mpris | grep 112801 | grep inst
 busctl --user list | grep mpris | grep 115156 | grep inst
+KITTY
+kitty
+fish
+niri
+fish
+kitty
+niri
+fish
+kitty
+fish
+niri-start
+niri-session 
+fish
+VERSION=$(curl -Ls -o /dev/null -w %{url_effective} https://github.com/AsamK/signal-cli/releases/latest | sed -e 's/^.*\/v//')
+curl -L -O https://github.com/AsamK/signal-cli/releases/download/v"${VERSION}"/signal-cli-"${VERSION}".tar.gz
+sudo tar xf signal-cli-"${VERSION}".tar.gz -C /opt
+sudo ln -sf /opt/signal-cli-"${VERSION}"/bin/signal-cli /usr/local/bin/
+signal-cli 
+foot
+fish
+mango
+hyprland
+start-hyprland
+start-hyprland
+mango
+mango
+d
+mango
+echo $text
+ $text="edge-tts -v en-US-AvaNeural -t text --write-media /tmp/tts_ouput.txt"
+text="edge-tts -v en-US-AvaNeural -t text --write-media /tmp/tts_ouput.txt"
+echo $text
+edge-tts -v en-US-AvaNeural -t "$text" 
+edge-tts -v en-US-AvaNeural -t "$text" --write-media /tmp/tts_ouput.txt
+start-hyprland 
+start-hyprland 
+echo $text
+text="edge-tts -v en-US-AvaNeural -t text --write-media /tmp/tts_ouput.txt"
+echo $text
+edge-playback --voice "en-IN-NeerjaNeural" --text "your text here"
+edge-playback --voice "en-US-AvaNeural" --text "your text here"
+edge-playback --voice "en-US-AvaNeural" --text "your text here"
+edge-playback --voice "en-US-AvaNeural" --text "your text here" -h
+edge-playback --voice "en-US-AvaNeural" --text "your text here" -mpv
+edge-playback --voice "en-US-AvaNeural" --text "your text here" --mpv
+edge-tts --voice "en-US-AvaNeural" --text "your text here" | mpv --no-config
+ edge-tts --voice "en-US-AvaNeural" --text "your text here" | mpv --no-config -
+edge-tts --voice "en-US-AvaNeural" --text "your text here" | mpv --no-config --speed=1.9 -
+edge-tts --voice "en-US-AvaNeural" --text "your text here" | mpv --no-config --speed=1.9 -
+edge-tts --voice "en-US-AvaNeural" --text "$text" | mpv --no-config --speed=1.9 -
+start-hyprland 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-pgrep dmenu && killall dmenu && echo "DMENU_ALREADY_EXISTED" && exit 1
+swayosd-client --custom-message "Opening"
 
 hyprctl clients -j | jq -r '.[] | select(.class == "mpv")' >~/.cache/mpvlist.json
 
@@ -11,8 +11,7 @@ mpv_count=$(jq -r 'select(.workspace.name=="special:mpv") | 1' ~/.cache/mpvlist.
 # echo "mpv on special:mpv: $mpv_count"
 
 if [[ $sec_count -eq 0 ]] && [[ $mpv_count -eq 0 ]]; then
-    qutebrowser "https://www.youtube.com"
-    hyprctl dispatch focuswindow class:org.qutebrowser.qutebrowser >/dev/null
+    setsid ~/scripts/qutebrowser/dmenu.sh >/dev/null 2>&1 &
     exit 0
 fi
 
@@ -21,7 +20,7 @@ if [[ $sec_count -eq 0 ]] && [[ $mpv_count -gt 0 ]]; then
     pid=$(jq -r 'select(.workspace.name == "special:mpv") | .pid' ~/.cache/mpvlist.json | head -n 1)
     #exit 0
 else
-    title_pid=$(cat ~/.cache/mpvlist.json | jq -r '"\(.title) \(.pid)"' | dmenu -l 9)
+    title_pid=$(cat ~/.cache/mpvlist.json | jq -r '"\(.title) \(.pid)"' | walker -d --minheight 1 -n -H)
     pid=$(echo "$title_pid" | awk '{print $NF}')
 fi
 
