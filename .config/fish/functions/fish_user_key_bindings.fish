@@ -35,23 +35,18 @@ end
 
 function __toggle_sleep
     set cmd (commandline)
-
-    # If buffer empty, pull last command
     if test -z "$cmd"
         set cmd (history --max=1)
     end
-
     if test -z "$cmd"
         return
     end
 
-    # Toggle nvim
-    if string match -rq '^sleep 2 &&\s+' -- $cmd
+    if string match -rq '^sleep 2 &&\s+.*' -- $cmd
         set cmd (string replace -r '^sleep 2 &&\s+' '' -- $cmd)
     else
         set cmd "sleep 2 && $cmd"
     end
-
     commandline -r $cmd
 end
 

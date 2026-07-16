@@ -1,500 +1,500 @@
-
-That distinction matters.
-
-Let me restate your situation in cleaner terms, without stripping its texture. Your mother legally has a claim. Culturally, she believes she should not. Practically, she will relinquish it. The only real variable is *timing* and *conditions*. The leverage exists because law and custom are misaligned, and because human relationships are not perfectly trustworthy. You didn’t advise her to exploit the property. You advised her not to weaponize delay either, and instead to act in a way that is consistent with her own beliefs and social reality, while keeping reputational symmetry intact.
-
-That is not treachery. That is constraint management.
-
-Now to your actual question: how much leverage is “good,” or acceptable, before it becomes morally corrosive?
-
-There are three useful lenses here: intent, reversibility, and identity.
-
-First, intent. Leverage becomes treacherous when its *primary intent* shifts from self-protection or clarity to domination or extraction. In your example, the leverage (property rights) is not being used to coerce your uncle into behavior you want. You explicitly said: sign it now, don’t dangle it, don’t bargain with it, don’t convert it into a slow threat. That matters. You’re not saying, “We’ll sign if you do Bhat.” You’re saying, “We’ll act cleanly, and your behavior afterward will reveal your character.” That’s not manipulation; that’s exposure. Philosophy would call this a non-interventionist test. You’re not changing his incentives, you’re removing ambiguity.
-
-Second, reversibility. A good rule of thumb is this: leverage is ethically safer when the situation remains reversible without humiliation or harm. Signing now is irreversible, but *withholding* would create a slow, accumulating asymmetry that poisons relationships. Delayed leverage hardens into resentment. Immediate relinquishment, paradoxically, limits future harm because it prevents endless interpretation. You were right to notice that dragging it would look bad within the very convention your mother believes in. Acting early collapses the moral timeline and prevents long-term corrosion.
-
-Third, identity. This is the part you’re already intuitively operating from. You are not asking “What can I get?” You are asking “Who am I if I act this way?” Your bluntness-with-calibration is not dishonesty; it’s *selective truth for identity preservation*. Complete honesty is not a virtue if it violates proportionality. Ethics isn’t about saying everything true; it’s about saying what is necessary to act rightly. You’re inching toward the line because you understand that social reality is not binary truth/lie, but signal/noise. You are shaping signals so that they remain legible without becoming cruel.
-
-Now zooming out from the family case to your general question.
-
-There is no universal rule like “never use leverage” or “always be transparent.” But there is a stable principle across psychology and philosophy: leverage is acceptable when it protects values you would still endorse if roles were reversed.
-
-Ask yourself this hypothetical reversal: if your uncle had legal leverage over your mother but culturally believed he shouldn’t, would you respect him more for signing early without extracting symbolic obedience? Yes. That tells you something.
-
-Another useful frame is from game theory, though I’ll keep it human. In repeated relationships, strategies that maximize short-term advantage degrade long-term trust, even if they are “smart.” Your instinct to avoid dragging, bargaining, or sequencing signatures is precisely an instinct to preserve repeated-game equilibrium. You’re thinking beyond a single move. That’s not treachery; that’s maturity.
-
-You also touched something important without naming it: the difference between *being able to hurt* and *needing to prove you won’t*. Real moral authority comes from visibly choosing restraint when you don’t have to. That’s why signing early actually strengthens your mother’s standing, not weakens it. It converts power into dignity.
-
-As for your broader social behavior—being blunt but filtered—that’s closer to what Aristotle would call practical wisdom. You’re not maximizing truth; you’re optimizing outcomes without lying to yourself. The danger zone would be if you start enjoying the leverage itself, or if you begin staging situations so others reveal themselves while you remain insulated. That’s when curiosity turns into manipulation.
-
-Right now, you’re not there.
-
-One last thing, about your side stories—the sister you wish you had, the weddings, the belonging. That’s not random. It explains why you’re sensitive to fairness in kinship structures. You’re not abstractly debating patriarchy; you’re imagining yourself inside relationships that require trust without contracts. That’s why you dislike dragging issues, why you dislike slow leverage. You want clean bonds, even if imperfect.
-
-So the short answer, after all this:
-Leverage is “good” up to the point where it clarifies reality without distorting consent. The moment it starts steering outcomes through fear, delay, or silent threat, it becomes treachery—even if no rule is broken.
-
-You’re not playing games. You’re refusing to play them.
-
-That difference is subtle, but it’s real.
-" > in.txt 
-[200~[[ -f /tmp/battery_shit_mode ]] && echo 1 || echo 0~
-[[ -f /tmp/battery_shit_mode ]] && echo 1 || echo 0
-[[ -f /tmp/battery_shit_mode ]] && echo 1 || echo 0
-[[ -f /tmp/battery_shit_mode ]] && echo 1 || echo 0
-bat scripts/waybarshit.sh 
-ls
-bat scripts/waybarshit.sh 
-as
-tput bold
-cat file.txt
-tput sgr0
-tput bold
-cat banner6.txt
-tput sgr0
-tput sgr0
-bat banner6.txt | sed 's/^/\x1b[1m/; s/$/\x1b[0m/'
-bat banner6.txt | sed 's/^/\x1b[1m/; s/$/\x1b[0m/'
-bat --list-themes
-vim .config/alacritty/alacritty.toml 
-ls
-fzf history
-history fizf
-history fzf
-vim ./.bashrc
-bat -p banner5.txt 
-bat -p banner5.txt
- bat -p banner6.txt 
-bat
-kitty -h
-kitty -hkitt
-kitty -c 
-vim ./.bashrc
-vim ./.bashrc
-fish
-fish
-vim .config/fish/config.fish 
-btop
-compgen -c
-fonts
-~/scripts/compgenfzf.sh
-~
-compgen
-compgen -c
-fonts
-vim .config/fish/config.fish 
-vim .config/fish/config.fish 
-vim .config/fish/config.fish 
-vim .config/fish/config.fish 
-vim .config/fish/config.fish 
-vim .config/fish/config.fish 
-fd"*rmpc*"
-fd "*rmpc*"
-alacritty --class rmpc --title rmpc rmpc
-alacritty --class rmpc --title rmpc -e rmpc --some-flag
-alacritty --class rmpc --title rmpc -e rmpc --some-flag
-alacritty --class rmpc --title rmpc  rmpc 
-/home/riwxr/Downloads/catppuccin-fzf-mocha.sh
-chmod +x /home/riwxr/Downloads/catppuccin-fzf-mocha.sh
-/home/riwxr/Downloads/catppuccin-fzf-mocha.sh
-fzf
-cat /home/riwxr/Downloads/catppuccin-fzf-mocha.sh
-vim ./.bashrc
-fzf
-fzf
-task
-task
-rmovadd test
-task add test
-task
-XDG_CONFIG_HOME=$HOME/.config/nvim-fresh XDG_DATA_HOME=$HOME/.local/share/nvim-fresh nvim
-nvim-frsh
-nvim-fresh
-XDG_CONFIG_HOME=$HOME/.config/nvim-fresh XDG_DATA_HOME=$HOME/.local/share/nvim-fresh nvim
-alias v='XDG_CONFIG_HOME=$HOME/.config/nvim-fresh XDG_DATA_HOME=$HOME/.local/share/nvim-fresh nvim'
-v
-v vimwiki/index.md 
-v vimwiki/index.md 
-vim ./.bashrc
-v vimwiki/index.md 
-v vimwiki/index.md 
-v vimwiki/diary/2026-01-20.md 
-cat > ~/.config/espanso/config/default.yml <<'EOF'
-search_shortcut: ALT+SPACE
+  if echo "$line" | grep -q "SW_LID"; then
+    if echo "$line" | grep -q "value 1"; then
+      # Lid closed
+      brightnessctl g > "$SAVED"
+      brightnessctl s 0
+    elif echo "$line" | grep -q "value 0"; then
+      # Lid opened
+      if [[ -f "$SAVED" ]]; then
+        brightnessctl s "$(cat $SAVED)"
+        rm "$SAVED"
+      fi
+    fi
+  fi
+done
 EOF
 
-cat > ~/.config/espanso/match/base.yml <<'EOF'
-matches:
-  - trigger: ":esp"
-    replace: "espanso works"
+sudo chmod +x /usr/local/bin/lid-watcher.sh
+sudo pacman -S evtest  # if not installed
+sudo tee /etc/systemd/system/lid-watcher.service << 'EOF'
+[Unit]
+Description=Lid brightness handler
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/lid-watcher.sh
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
 EOF
 
-espanso status
-espanso start
-espanso service register
-espanso service start
-espanso status
-nvim ~/.config/espanso/match/base.yml
-title=$(rmpc listall)
-echo 
-echo $title
-fzf $title
-path="Retro Cinematic/Billy Merman - 900 Miles.mp3"
-echo "${path%%/*}
+sudo systemctl daemon-reload
+sudo systemctl enable --now lid-watcher
+sudo evtest /dev/input/event0
+# then close the lid — you should see SW_LID events
+    sudo dmidecode -s bios-version
+~ #     sudo dmidecode -s bios-version
+1.34.0
+~ # sudo pacman -S fwupd
+sudo fwupdmgr refresh
+sudo fwupdmgr get-updates
+sudo pacman -S fwupd
+sudo fwupdmgr refresh
+sudo fwupdmgr get-updates
+Packages (8) confuse-3.3-5  flashrom-1.7.0-1  fwupd-efi-1.8-2
+             libcbor-0.14.0-1  libftdi-1.5-10  libjcat-0.2.6-1
+             passim-0.1.11-1  fwupd-2.1.2-1
+Total Download Size:   13.79 MiB
+Total Installed Size:  27.96 MiB
+:: Proceed with installation? [Y/n] y
+:: Retrieving packages...
+ libjcat-0.2.6-1-...    89.5 KiB   184 KiB/s 00:00 [#################] 100%
+ passim-0.1.11-1-...    83.4 KiB   144 KiB/s 00:01 [#################] 100%
+ libftdi-1.5-10-x...   122.9 KiB   210 KiB/s 00:01 [#################] 100%
+ libcbor-0.14.0-1...    49.1 KiB   311 KiB/s 00:00 [#################] 100%
+ confuse-3.3-5-x86_64   45.0 KiB   145 KiB/s 00:00 [#################] 100%
+ fwupd-efi-1.8-2-any    29.3 KiB  91.2 KiB/s 00:00 [#################] 100%
+ flashrom-1.7.0-1...     5.0 MiB  1678 KiB/s 00:03 [#################] 100%
+ fwupd-2.1.2-1-x86_64    8.4 MiB   920 KiB/s 00:09 [#################] 100%
+ Total (8/8)            13.8 MiB  1397 KiB/s 00:10 [#################] 100%
+(8/8) checking keys in keyring                     [#################] 100%
+(8/8) checking package integrity                   [#################] 100%
+(8/8) loading package files                        [#################] 100%
+(8/8) checking for file conflicts                  [#################] 100%
+(8/8) checking available disk space                [#################] 100%
+:: Processing package changes...
+(1/8) installing confuse                           [#################] 100%
+(2/8) installing libftdi                           [#################] 100%
+Optional dependencies for libftdi
+    python: library bindings [installed]
+(3/8) installing flashrom                          [#################] 100%
+Optional dependencies for flashrom
+    dmidecode: for SMBIOS/DMI table decoder support [installed]
+(4/8) installing fwupd-efi                         [#################] 100%
+(5/8) installing libcbor                           [#################] 100%
+(6/8) installing libjcat                           [#################] 100%
+(7/8) installing passim                            [#################] 100%
+(8/8) installing fwupd                             [#################] 100%
+Optional dependencies for fwupd
+    python-dbus: Firmware packaging tools [installed]
+    python-gobject: Firmware packaging tools [installed]
+    udisks2: UEFI firmware upgrade support [installed]
+:: Running post-transaction hooks...
+(1/6) Creating system user accounts...
+Creating group 'fwupd' with GID 947.
+Creating user 'fwupd' (Firmware update daemon) with UID 947 and GID 947.
+Creating group 'passim' with GID 946.
+Creating user 'passim' (Local Caching Server) with UID 946 and GID 946.
+(2/6) Reloading system manager configuration...
+(3/6) Reloading device manager configuration...
+(4/6) Arming ConditionNeedsUpdate...
+(5/6) Reloading system bus configuration...
+(6/6) Updating icon theme caches...
+Updating lvfs
+Downloading…             ▕⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦▏
+Successfully downloaded new metadata:
+ • 13 devices are updatable
+ • 5 devices are supported in the enabled remotes (an update has been published)
+Devices with no available firmware updates:
+ • Internal SPI Controller (BIOS)
+ • Bios DB Key
+ • Bios FW Aux Authority
+ • Key Exchange Key
+ • PCH SPI Controller
+ • TPM
+ • UEFI Device Firmware
+ • UEFI Device Firmware
+ • Windows Production PCA
+Devices with the latest available firmware version:
+ • PM991a NVMe Samsung 512GB
+Dell Inc. Inspiron 15 3520
+│
+├─KEK CA:
+│ │   Device ID:          b7a1d3d90faa1f6275d9a98da4fb3be7118e61c7
+│ │   Current version:    2011
+│ │   Vendor:             Microsoft (UEFI:Microsoft)
+│ │   GUIDs:              814e950f-1449-566a-a190-42c9d3a3a2df ← UEFI\VENDOR_Microsoft&NAME_Microsoft-KEK-CA
+│ │                       dfa66406-6568-5bdf-bb8e-b53ddb4be4cf ← UEFI\CRT_9F402B1CC0243CBEDC58A525789816CCCA7687A9
+│ │   Device Flags:       • Internal device
+│ │                       • Updatable
+│ │                       • Supported on remote server
+│ │                       • Needs a reboot after installation
+│ │                       • Device is usable for the duration of the update
+│ │                       • Signed Payload
+│ │                       • Can tag for emulation
+│ │ 
+│ └─Secure Boot KEK Configuration Update:
+│       New version:      2023
+│       Remote ID:        lvfs
+│       Release ID:       113921
+│       Summary:          UEFI Secure Boot Key Exchange Key
+│       Variant:          Dell
+│       License:          Proprietary
+│       Size:             2.9 kB
+│       Created:          2025-04-29 00:00:00
+│       Urgency:          High
+│       Vendor:           Linux Foundation
+│       Release Flags:    • Trusted metadata
+│                         • Is upgrade
+│       Description:      
+│       This updates the UEFI Signature Database (the "KEK") to the latest release from Microsoft, signed by Dell Inc.Platform Key.
+│       Checksum:         8c6f7c473afceac2bd26b1598e26991f710875cc25d0ce08cbe0a90867ea9914
+│     
+├─System Firmware:
+│ │   Device ID:          ee94f8e437ac3be6602c7f3916939dbb63f7556f
+│ │   Summary:            UEFI System Resource Table device (updated via NVRAM)
+│ │   Current version:    1.34.0
+│ │   Minimum Version:    1.34.0
+│ │   Vendor:             Dell (DMI:Dell Inc.)
+│ │   Update State:       Success
+│ │   GUID:               86cb8db0-84f3-4340-8b2f-682c305f2083
+│ │   Device Flags:       • Internal device
+│ │                       • Updatable
+│ │                       • System requires external power source
+│ │                       • Supported on remote server
+│ │                       • Needs a reboot after installation
+│ │                       • Cryptographic hash verification is available
+│ │                       • Device is usable for the duration of the update
+│ │   Device Requests:    • Message
+│ │ 
+│ └─Inspiron 15 3520, Inspiron 15 3520, Vostro 3520, Vostro 3520, Vostro 3420, Vostro 3420 System Update:
+│       New version:      1.39.0
+│       Remote ID:        lvfs
+│       Release ID:       134893
+│       Summary:          Firmware for the Dell Inspiron 15 3520, Inspiron 15 3520, Vostro 3520, Vostro 3520, Vostro 3420, Vostro 3420
+│       License:          Proprietary
+│       Size:             43.7 MB
+│       Created:          2025-12-29 03:38:53
+│       Urgency:          Critical
+│       Vendor:           Dell
+│       Release Flags:    • Trusted metadata
+│                         • Is upgrade
+│       Description:      
+│       Fixes and Enhancements
+│       
+│       ==========================
+│       
+│       • This release contains security updates as disclosed in the Dell Security Advisories.
+│       Checksum:         e9923d41744dff57a510d874afeb147f95f0314a3c00c83512bc228b18e26ec8
+│     
+├─UEFI CA:
+│ │   Device ID:          5bc922b7bd1adb5b6f99592611404036bd9f42d0
+│ │   Current version:    2011
+│ │   Vendor:             Microsoft (UEFI:Microsoft)
+│ │   GUIDs:              26f42cba-9bf6-5365-802b-e250eb757e96 ← UEFI\VENDOR_Microsoft&NAME_Microsoft-UEFI-CA
+│ │                       c34a7e6a-bd86-5244-8bd0-7db66fd3c073 ← UEFI\CRT_E30CF09DABEAB32A6E3B07A7135245DE05FFB658
+│ │   Device Flags:       • Internal device
+│ │                       • Updatable
+│ │                       • Supported on remote server
+│ │                       • Needs a reboot after installation
+│ │                       • Signed Payload
+│ │                       • Can tag for emulation
+│ │ 
+│ └─Secure Boot Signature Database Configuration Update:
+│       New version:      2023
+│       Remote ID:        lvfs
+│       Release ID:       116503
+│       Summary:          UEFI Secure Boot Signature Database
+│       License:          Proprietary
+│       Size:             10.0 kB
+│       Created:          2025-04-29 00:00:00
+│       Urgency:          High
+│         Tested:         2026-04-20 00:00:00
+│         Distribution:   ubuntu 25.10
+│         Old version:    2011
+│         Version[fwupd]: 2.0.16
+│         Tested:         2025-10-17 00:00:00
+│         Distribution:   fedora 42 (workstation)
+│         Old version:    2011
+│         Version[fwupd]: 2.0.16
+│         Tested:         2025-09-17 00:00:00
+│         Distribution:   fedora 42 (workstation)
+│         Old version:    2011
+│         Version[fwupd]: 2.0.16
+│         Tested:         2025-07-24 00:00:00
+│         Distribution:   nixos 25.11
+│         Old version:    2011
+│         Version[fwupd]: 2.0.12
+│       Vendor:           Microsoft
+│       Release Flags:    • Trusted metadata
+│                         • Is upgrade
+│       Description:      
+│       This updates the 3rd Party UEFI Signature Database (the "db") to the latest release from Microsoft.It also adds the latest OptionROM UEFI Signature Database update.
+│       Checksum:         4bdf420ad7e5ddde89d7a66ffe1b4328927059d56551f03afac855c4ed80f6c3
+│     
+└─UEFI dbx:
+  │   Device ID:          362301da643102b9f38477387e2193e57abaa590
+  │   Summary:            UEFI revocation database
+  │   Current version:    20210401
+  │   Minimum Version:    20210401
+  │   Vendor:             Microsoft (UEFI:Microsoft)
+  │   Install Duration:   1 second
+  │   GUIDs:              4a6cd2cb-8741-5257-9d1f-89a275dacca7 ← UEFI\CRT_E28D59CA489BD2AD580F2EA5D62D6A29BB9C02AE5A818434A37DA7FC11DFF9E9&ARCH_X64
+  │                       f8ba2887-9411-5c36-9cee-88995bb39731 ← UEFI\CRT_A1117F516A32CEFCBA3F2D1ACE10A87972FD6BBE8FE0D0B996E09E65D802A503&ARCH_X64
+  │   Device Flags:       • Internal device
+  │                       • Updatable
+  │                       • Supported on remote server
+  │                       • Needs a reboot after installation
+  │                       • Device is usable for the duration of the update
+  │                       • Only version upgrades are allowed
+  │                       • Signed Payload
+  │                       • Can tag for emulation
+  │ 
+  ├─Secure Boot dbx Configuration Update:
+  │     New version:      20250902
+  │     Remote ID:        lvfs
+  │     Release ID:       130035
+  │     Summary:          UEFI Secure Boot Forbidden Signature Database
+  │     Variant:          x64
+  │     License:          Proprietary
+  │     Size:             24.1 kB
+  │     Created:          2025-09-02 00:00:00
+  │     Urgency:          High
+  │       Tested:         2026-04-20 00:00:00
+  │       Distribution:   ubuntu 25.10
+  │       Old version:    20230501
+  │       Version[fwupd]: 2.0.16
+  │       Tested:         2026-02-25 00:00:00
+  │       Distribution:   ubuntu 25.10
+  │       Old version:    20230501
+  │       Version[fwupd]: 2.0.18
+  │       Tested:         2026-02-13 00:00:00
+  │       Distribution:   ubuntu 25.10
+  │       Old version:    20230501
+  │       Version[fwupd]: 2.0.17
+  │       Tested:         2025-12-05 00:00:00
+  │       Distribution:   fedora 42 (workstation)
+  │       Old version:    20250507
+  │       Version[fwupd]: 2.0.17
+  │       Tested:         2025-11-10 00:00:00
+  │       Distribution:   fedora 43 (kde)
+  │       Old version:    20230501
+  │       Version[fwupd]: 2.0.16
+  │     Vendor:           Linux Foundation
+  │     Duration:         1 second
+  │     Release Flags:    • Trusted metadata
+  │                       • Is upgrade
+  │                       • Tested by trusted vendor
+  │     Description:      
+  │     This updates the list of forbidden signatures (the "dbx") to the latest release from Microsoft.
+  │     
+  │     Some insecure versions of the IGEL bootloader were added, due to a security vulnerability that allowed an attacker to bypass UEFI Secure Boot.
+  │     Issue:            CVE-2025-47827
+  │     Checksum:         7178302fa23fcb875e7540900e299fb30a76758663efb7e1c56edc25cd3f316a
+  │   
+  ├─Secure Boot dbx Configuration Update:
+  │     New version:      20250507
+  │     Remote ID:        lvfs
+  │     Release ID:       115586
+  │     Summary:          UEFI Secure Boot Forbidden Signature Database
+  │     Variant:          x64
+  │     License:          Proprietary
+  │     Size:             24.0 kB
+  │     Created:          2025-01-17 00:00:00
+  │     Urgency:          High
+  │       Tested:         2025-10-17 00:00:00
+  │       Distribution:   fedora 42 (workstation)
+  │       Old version:    20230501
+  │       Version[fwupd]: 2.0.16
+  │       Tested:         2025-06-11 00:00:00
+  │       Distribution:   fedora 42 (workstation)
+  │       Old version:    20241101
+  │       Version[fwupd]: 2.0.11
+  │     Vendor:           Linux Foundation
+  │     Duration:         1 second
+  │     Release Flags:    • Trusted metadata
+  │                       • Is upgrade
+  │                       • Tested by trusted vendor
+  │     Description:      
+  │     This updates the list of forbidden signatures (the "dbx") to the latest release from Microsoft.
+  │     
+  │     Some insecure versions of BiosFlashShell and Dtbios by DT Research Inc were added, due to a security vulnerability that allowed an attacker to bypass UEFI Secure Boot.
+  │     Issues:           806555
+  │                       CVE-2025-3052
+  │     Checksum:         40d3a4630619b83026f66bc64d97a582bbd9223ad53aa3f519ff5e2121d11ca6
+  │   
+  └─Secure Boot dbx Configuration Update:
+        New version:      20241101
+        Remote ID:        lvfs
+        Release ID:       105821
+        Summary:          UEFI Secure Boot Forbidden Signature Database
+        Variant:          x64
+        License:          Proprietary
+        Size:             15.1 kB
+        Created:          2025-01-17 00:00:00
+        Urgency:          High
+          Tested:         2026-02-25 00:00:00
+          Distribution:   ubuntu 24.04
+          Old version:    20230501
+          Version[fwupd]: 1.9.28
+        Vendor:           Linux Foundation
+        Duration:         1 second
+        Release Flags:    • Trusted metadata
+                          • Is upgrade
+        Description:      
+        This updates the list of forbidden signatures (the "dbx") to the latest release from Microsoft.
+        
+        An insecure version of Howyar's SysReturn software was added, due to a security vulnerability that allowed an attacker to bypass UEFI Secure Boot.
+        Issues:           529659
+                          CVE-2024-7344
+        Checksum:         093e6913dfecefbdaa9374a2e1caee7bf7e74c7eda847624e456e344884ba5f6
+      
+~ #sudo fwupdmgr update 
+GAME_ROOT="/home/riwxr/Games/The Elder Scrolls - Skyrim - Special Edition" ~/Downloads/mo2installer-6.0.6/install.sh
+grep -n "GAME\|game_root\|gamepath\|game_path\|GamePath" ~/Downloads/mo2installer-6.0.6/install.sh | head -30
+mkdir -p ~/.local/share/Steam/Steam/steamapps/common
+ln -s "/home/riwxr/Games/The Elder Scrolls - Skyrim - Special Edition" ~/.local/share/Steam/Steam/steamapps/common/Skyrim\ Special\ Edition
+cat > ~/.local/share/Steam/Steam/steamapps/libraryfolders.vdf << 'EOF'
+"libraryfolders"
+{
+	"0"
+	{
+		"path"		"/home/riwxr/.local/share/Steam/Steam"
+		"apps"
+		{
+			"489830"		"1"
+		}
+	}
+}
+EOF
 
+STEAM_LIBRARY="/home/riwxr/.local/share/Steam/Steam" ~/Downloads/mo2installer-6.0.6/install.sh
+mkdir -p ~/.var/app/com.heroicgameslauncher.hgl/config/heroic/gog_store
+cat > ~/.var/app/com.heroicgameslauncher.hgl/config/heroic/gog_store/installed.json << 'EOF'
+{
+  "installed": [
+    {
+      "appName": "1711230643",
+      "install_path": "/home/riwxr/Games/The Elder Scrolls - Skyrim - Special Edition"
+    }
+  ]
+}
+EOF
 
-
-
-path="Retro Cinematic/Billy Merman - 900 Miles.mp3"
-echo "${path%%/*}
-
-echo $(0.1...0.9)
-echo ${0.1...0.9}
-echo {0.1...0.9}
-echo {0.1...0.9}
-echo {0.1..0.9}
-echo ${0.1..0.9}
-d=$(find ~/scripts ~/.config/hypr ~/.config/alacritty ~/.config/fish ~/.config/fastfetch ~/.config/autostart ~/.config/bat ~/.config/flameshot ~/.config/kitty ~/.config/nvim ~/.config/quickshell ~/.config/rmpc ~/.config/rofi ~/.config/swayosd ~/.config/waybar ~/.config/yazi ~/.config/zathura)
-echo $d
-echo $d |fzf
-echo $d | fzf
-printn $d | fzf
-printf $d
-printf $d 
-echo $d | r ' ' '\n' | fzf
-echo $d | tr ' ' '\n' 
-echo $d | tr ' ' '\n' |fzf
-echo $d | tr ' ' '\n' | tr '/home/riwxr/' '~/' 
-echo $d | tr ' ' '\n' | tr "/home/riwxr/" '~/' 
-echo $d | tr ' ' '\n' | sed 's/\/home\/riwxr\//dog/g;
-
-echo $d | tr ' ' '\n' | sed 's/\/home\/riwxr\//dog/g
-echo $d | tr ' ' '\n' | sed 's/\/home\/riwxr\//dog/g
-
-echo $d | sed -e 's|/home/riwxr/|~/|g' -e "s/ /\n/g"
-echo $d | sed -e 's|/home/riwxr/|~/|g' -e "s/ /\n/g" |fzf
-zz
-zz
-zz
-vim .bashrc 
-vim .bash_aliases 
-zz
-cat ~/vimwiki/Todo.md 
-cat ~/vimwiki/Todo.md | taik
-cat ~/vimwiki/Todo.md | tail
-cat ~/vimwiki/Todo.md | tail -1
-cat ~/vimwiki/Todo.md | tail -1
-cat ~/vimwiki/Todo.md | tail -1
-tail -1 ~/vimwiki/Todo.md
-tail -1 ~/vimwiki/Todo.md
-echo "your text here" >> filename.txt
-cat filename.txt
-echo "your text here" >> filename.txt
-echo "your text here" >> filename.txt
-cat filename.txt
-printf "your text here" >> filename.txt
-cat filename.txt
-cat filename.txt
-printf "your text here" > filename.txt
-printf "your text here" >> filename.txt
-printf "your text here 2" >> filename.txt
-cat filename.txt
-printf "your text here 2" >> filename.txt
-vim filename.txt
-vim filename.txt
-printf "your text here 2" >> filename.txt
-vim filename.txt
-echo "your text here" >> filename.txt
-vim filename.txt
-echo " your text here" >> filename.txt
-vim filename.txt
-sed -i '$ s/$/ABC/' file.txt
-sed -i '$ s/$/ABC/' filename.txt
-vim filename.txt
-printf " ABC" >> filename.txt 
-vim filename.txt
-vim filename.txt
-[[ $(hyprctl activeworkspace | grep 'windows:' | awk '{print $2}') == 0 ]] && echo nothing on the workspace || echo somthing it there
-sleep 2 && [[ $(hyprctl activeworkspace | grep 'windows:' | awk '{print $2}') == 0 ]] && echo nothing on the workspace || echo somthing it there
-mapfile -t ws_ids < <(hyprctl workspaces | awk '/^workspace ID/ {print $3}' | grep -E '^[0-9]+$')
-echo "${ws_ids[@]}"
-(( 4 + 1 ))
-(( 4 + 1 ))
-(( 4 + 1 ))
-echo $?
-echo $?
-(( 4 + 1 ))
-( 4 + 1 )
-(( 4 + 1 ))
-y=5
-hyprctl dispatch workspace $y
-hyprctl dispatch workspace -1
-todo=$(printf '>' | fzf --print-query --prompt="[ ] ")
-[[ $todo == ">" ]]
-[[ $todo == ">" ]]
-echo $?
-echo $todo
-todo=$(printf 'f' | fzf --print-query --prompt="[ ] ")
-[[ $todo == "f" ]]
-echo $?
-echo $todo
-[[ "$todo" == "f" ]]
-echo $?
-echo $todo
-~ # todo=$(printf 'f' | fzf --print-query --prompt="[ ] ")
-~ # [[ $todo == "f" ]]
-~ # echo $?
-1
-~ # echo $todo
-f
-~ # [[ "$todo" == "f" ]]
-
-
-~ # echo $todo
-f
-~ #echo "$todo" | cat -A
-echo "$todo" | cat -A
-file=~/vimwiki/Todo.md
-tasks=$(grep -E '^\* \[ \] ' "$file" | sed 's/^\* \[ \] //')
-printf "%s\n" "$tasks" | fzf --print-query --prompt="[ ] "
-printf "%s\n" | fzf --print-query --prompt="[ ] "
-printf "-\n" "$tasks" | fzf --print-query --prompt="[ ] "
-printf "- \n$tasks" | fzf --print-query --prompt="[ ] "
-printf "d \n$tasks" | fzf --print-query --prompt="[ ] "
-printf "> \n$tasks" | fzf --print-query --prompt="[ ] "
-printf "%s\n" ">\n$tasks" | fzf --print-query --prompt="[ ] "
-printf "> \n$tasks" | fzf --print-query --prompt="[ ] "
-printf "" | fzf --print-query --prompt="[ ] "
-list=$(hyprctl -j clients | jq -r '.[].class' | sort -u)
-z=zen-browser
-sleep 2 && [[ $z =~ list ]] && echo nothing on the workspace || echo somthing it there
-[[ $z =~ list ]] && echo nothing on the workspace || echo somthing it there
-[[ $z =~ list ]] && echo 0 
-[[ $z =~ list ]] && echo 0 
-[[ $z =~ list ]] && echo 0 || echo 1
-[[ $z ~ list ]] && echo 0 || echo 1
-
-z=zen
-[[ $z ~= list ]] && echo 0 || echo 1
-[[ $z =~ list ]] && echo 0 || echo 1
-mapfile -t list < <(hyprctl -j clients | jq -r '.[].class')
-[[ $z =~ ${list[@] ]] && echo 0 || echo 1
-[[ $z =~ ${list[@]} ]] && echo 0 || echo 1
-[[ $z =~ ${list[@]} ]] && echo 0 || echo 1
-[[ $z =~ ${list[@]} ]] && echo 0 || echo 1
-[[ $z =~ ${list[@]} ]] && echo 0 || echo 1 && echo "$z =~ ${list[@]}"
-hyprctl -j clients 
-notify-send asfvas <span color='#93E1D4'>asdv</span>"
-
-
-notify-send -a special "Title" "Body"
-x=$(notify-send "󰑨  Screen Rotation $blank" "Orintation" -a Up -a Down -a Right -a Left -t 5000)
-notify-send "󰑨  Screen Rotation $blank" "Orintation" -a Up -a Down -a Right -a Left -t 5000
-notify-send "󰑨  Screen Rotation $blank" "Orintation" -a Up -a Down -a Right -o Left -t 5000
-notify-send "󰑨  Screen Rotation $blank" "Orintation" -a Up -a Down -a Right -A Left -t 5000
-hyprctl -j clients | jq -r '.[].title' | grep -Fx "/home/riwxr/scripts/fzfscripts.sh"
-hyprctl -j clients | jq -r '.[].title' | grep -Fx "/home/riwxr/scripts/fzfscripts.s"
-echo $?
-echo $?
-echo $?
-echo $
-echo $
-echo $?
-echo 
-echo $?
-xdg-terminal-exec -e echo test
-update-alternatives --config x-terminal-emulator
-gsettings get org.gnome.desktop.default-applications.terminal exec
-/usr/lib/xdg-terminal-exec echo test
-gsettings set org.gnome.desktop.default-applications.terminal exec 'kitty'
-gsettings set org.gnome.desktop.default-applications.terminal exec-arg '-e'
-echo "$(date +"%Y-%m-%d_%H-%M-%S")_${USER}@$(hostname)"
-echo "$(date +"%Y-%m-%d_%H-%M-%S")_${USER}@$(hostname)"
-echo "$(date +"%Y-%m-%d_%H-%M-%S")_$)"
-echo "screenshot_$(date +"%Y-%m-%d_%H-%M-%S")_${USER}"
-grim -s 4 -g "$(slurp)" "screenshot_$(date +"%Y-%m-%d_%H-%M-%S")_${USER}.png"
-feh screenshot_2026-02-03_04-44-36_riwxr.png 
-grim -h
-grim -s 4 -g "$(slurp)" ~/Pictures/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S")_${USER}.png
-grim -s 4 -g "$(slurp)" ~/Pictures/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S")_${USER}.png 
-sleep 2 && grim -s 4 -g "$(slurp)" ~/Pictures/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S")_${USER}.png 
-sleep 2 && grim -s 4 -g "$(slurp)" ~/Pictures/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S")_${USER}.png 
-[[ -z Mirza Yar Bulaonda Tera ]]
-[[ -z "Mirza Yar Bulaonda Tera" ]]
-echo $?
-z="Mirza Yar Bulaonda Tera"
-[[ -z "$z" ]]
-echo $?
-cd Music/Punjabi/
-[[ -z "$z" ]]
-echo $?
-[[ -z "$z" ]]
-ls
-[[ -z "$z".mp3 ]]
-echo $?
-[[ -z "Mirza Yar Bulaonda Tera.mp3" ]]
-echo $?
-cd
-[[ -z "~/Music/Punjabi$z.mp3" ]]
-echo $?
-echo $z
-ls ~/Music/Punjabi$z.mp3
-ls ~/Music/Punjabi"$z".mp3
-ls ~/Music/Punjabi/"$z".mp3
-[[ -z "~/Music/Punjabi/"$z".mp3" ]]
-echo $z
-echo $?
-rofimoji 
-echo $?
-rofimoji 
-[[ -z "~/Music/Punjabi/Daaru.mp3" ]]
-echo $?
-[[ -z "~/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" ]]
-echo $?
-[[ -z "~/Music/Punjabi/"$z".mp3" ]]
-echo $?
-echo $z
-[[ -z "~/Music/Punjabi/"$z".mp3" ]]
-echo $?
-ls ~/Music/Punjabi/"$z".mp3
-ls "~/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3"
-ls "/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" 
-ls "/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" 
-ls "/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" 
-ls "/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" 
-ls '/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3'
-ls '/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3'
-[[ -z "/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3" ]]
-echo $?
-ls '/home/riwxr/Music/Punjabi/Mirza Yar Bulaonda Tera.mp3'
-which lua-language-server
-ls -l $(which lua-language-server)
-chmod +x /usr/bin/lua-language-server
-sudo chmod +x /usr/bin/lua-language-server
-ls -l $(which lua-language-server)
-/usr/bin/lua-language-server -v
-cat /home/riwxr/.local/state/nvim/lsp.log
-nvim /home/riwxr/.local/state/nvim/lsp.log
- printf -v dur_fmt "%02d:%02d" 66 666
-echo dur_fmt
-echo $dur_fmt
-printf -v dur_fmt "%02d:%02d" $((dur/60)) $((dur%60))
-dur=540
-printf -v dur_fmt "%02d:%02d" $((dur/60)) $((dur%60))
-echo $dur_fmt
-printf -v dur_fmt "%02d:%02d" $((dur/60)) $((dur%60))
-dur=546
-printf -v dur_fmt "%02d:%02d" $((dur/60)) $((dur%60))
-echo $dur_fmt
-printf "%02d:%02d" $((dur/60)) $((dur%60))
-printf "%02d:%02d" $((dur/60)) $((dur%60))
-grim -g "$(slurp -o -r -c '##ff0000ff')" -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
-grim -s 4 -g "$(slurp -o -r -c '##ff0000ff')" -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
-grim -s 4 -g "$(slurp -o -r)" -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
-grim -s 4 -g "$(slurp)" -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
-grim -s 4 -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
-nano
-ls
-ls
-ls
-grim -s 4 -t ppm - | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/satty-$(date '+%Y%m%d-%H:%M:%S').png
-1
-jh
-ls
-tree
-ZazZwwq
-v
-v
-v
-reboot 
-cosmic
-cosmic-greeter-start 
-/tmp//tmp/mpvsocket ]
-
-hyprctl clients -j | jq -r '.[].pid' | fzf 
-for p in $(playerctl -l); do   printf "%-30s -> " "$p";   busctl --user get-property     org.mpris.MediaPlayer2.$p     /org/mpris/MediaPlayer2     org.mpris.MediaPlayer2     ProcessID 2>/dev/null | awk '{print $2}'; done
-busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2
-busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2
-busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2
-busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2 | pid
-busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2 | grep pid
-busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2 | grep play
-busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2 | grep play
-busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2
-busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw
-busctl --user introspect org.mpris.MediaPlayer2.mpv.instance-aXOGlbSw /org/mpris/MediaPlayer2
-usctl --user list | grep org.mpris.MediaPlayer2.mpv
-usctl --user list | grep org.mpris.MediaPlayer2.mpv
-busctl --user status :1.142
-~/scripts/mpv_window_jankryyy.sh
-echo $?
-~/scripts/mpv_window_jankryyy.sh
-echo $?
-mpv --script-opts=mpv-mpris:service-name=mpv.$$ ~/A21s_Backup/Movies/hehe.mp4 
-mpv --script-opts=mpv-mpris:service-name=mpv.custom ~/A21s_Backup/Movies/hehe.mp4 &
-set mpv_pid $last_pid
-echo $mpv_pid
-usctl --user list | grep mpv
-busctl --user list | grep mpv
-busctl --user list | grep mpv.
-busctl --user list | grep mpv. | 112801busctl --user list | grep mpv. | 112801
-busctl --user list | grep mpv. | 112801
-busctl --user list | grep mpv. | grep 112801
-busctl --user list | grep mpris | grep 112801
-busctl --user list | grep mpris | grep 112801 | grep inst
-busctl --user list | grep mpr
-busctl --user list 
-busctl --user list | grep mpris | grep 112801 | grep inst
-busctl --user list | grep mpris | grep 112801 | grep inst
-busctl --user list | grep mpris | grep 115156 | grep inst
-KITTY
-kitty
+cp ~/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/nCKGHyY6wwsjGVzqhmNG1b.json    ~/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/1711230643.json
+sed -i 's/nCKGHyY6wwsjGVzqhmNG1b/1711230643/g'     ~/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/1711230643.json
+STEAM_LIBRARY="/home/riwxr/.local/share/Steam/Steam" ~/Downloads/mo2installer-6.0.6/install.sh
+bash -x ~/Downloads/mo2installer-6.0.6/utils/find-heroic-game-installation.sh 2>&1 | grep -E "INFO|ERROR|WARN|skyrim|gog|prefix|wine|1711"
+cat ~/Downloads/mo2installer-6.0.6/step/clean_game_prefix.sh
+sed -i 's|/home/riwxr/Games/Heroic/Prefixes/default/Skyrim"|/home/riwxr/Games/Heroic/Prefixes/default/Skyrim SE"|g'     ~/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/1711230643.json
+grep winePrefix ~/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/1711230643.json
+STEAM_LIBRARY="/home/riwxr/.local/share/Steam/Steam" ~/Downloads/mo2installer-6.0.6/install.sh
+game_gog_id=1711230643 bash -x ~/Downloads/mo2installer-6.0.6/utils/find-heroic-game-installation.sh 2>&1
+game_gog_id=1711230643 bash -x ~/Downloads/mo2installer-6.0.6/utils/find-heroic-game-installation.sh 2>&1
+find ~ -name "*mo2*" -o -name "*ModOrganizer*" 2>/dev/null | grep -v "Games/mo2" | grep -v Downloads | grep -v lutris
+cat ~/.local/share/mo2installer/installations.json 2>/dev/null || find ~ -path "*/mo2installer/*" 2>/dev/null
+find ~ -name "*modorganizer*" -o -name "*mo2*" 2>/dev/null | grep -v "\.20260522\|Downloads\|Games/mo2/pfx" | head -20
+find ~ -name "*modorganizer*" -o -name "*mo2*"  
+find ~ -name "*modorganizer*" -o -name "*mo2*" 2>/dev/null | grep -v "\.20260522\|Downloads\|Games/mo2/pfx" | head -20
+ls ~/Games/Heroic/mod-organizer-2-skyrimspecialedition/
+cat ~/Games/Heroic/mod-organizer-2-skyrimspecialedition/variables.sh
+ls ~/Games/Heroic/mod-organizer-2-skyrimspecialedition/modorganizer2/
+find ~ -name "*.sh" -newer ~/Downloads/mo2installer-6.0.6/install.sh 2>/dev/null | grep -v flatpak | head -20
+find ~/.local/share/applications -name "*mo2*" -o -name "*organizer*" 2>/dev/null
+cat ~/.local/share/applications/modorganizer2-nxm-handler.desktop
+cat ~/.local/share/modorganizer2/modorganizer2-nxm-broker.sh
+/home/riwxr/Games/Heroic/mod-organizer-2-skyrimspecialedition/modorganizer2/ModOrganizer.exe
+cat ~/.local/share/modorganizer2/modorganizer2-nxm-broker.sh | head -20
+WINEPREFIX="/home/riwxr/Games/Heroic/Prefixes/default/Skyrim SE" wine "/home/riwxr/Games/Heroic/mod-organizer-2-skyrimspecialedition/modorganizer2/ModOrganizer.exe"
 fish
-niri
-fish
-kitty
-niri
-fish
-kitty
-fish
-niri-start
-niri-session 
-fish
-VERSION=$(curl -Ls -o /dev/null -w %{url_effective} https://github.com/AsamK/signal-cli/releases/latest | sed -e 's/^.*\/v//')
-curl -L -O https://github.com/AsamK/signal-cli/releases/download/v"${VERSION}"/signal-cli-"${VERSION}".tar.gz
-sudo tar xf signal-cli-"${VERSION}".tar.gz -C /opt
-sudo ln -sf /opt/signal-cli-"${VERSION}"/bin/signal-cli /usr/local/bin/
-signal-cli 
+sudo EDITOR=nvim virsh edit win11
+sudo virsh dumpxml win11 > /tmp/win11.xml
+nvim /tmp/win11.xml
+env | grep -E 'GTK_THEME|QT_QPA_PLATFORMTHEME|XDG_CURRENT_DESKTOP'
+nwg-look
+pacman -Qs qt5ct
+pacman -Qs qt6ct
+echo $QT_QPA_PLATFORMTHEME
+# 1. Make sure flatpak Zen isn't running either
+flatpak kill app.zen_browser.zen 2>/dev/null
+# 2. Find the flatpak's actual default profile folder name (in case it's not kkhfhl8e anymore after the reinstall)
+FLATPAK_PROFILES_INI="$HOME/.var/app/app.zen_browser.zen/.var/app/app.zen_browser.zen/.config/profiles.ini"
+cat "$HOME/.var/app/app.zen_browser.zen/.config/profiles.ini" 2>/dev/null
+# 3. Backup the entire flatpak data dir just in case (cheap insurance, it's small)
+cp -a "$HOME/.var/app/app.zen_browser.zen" "$HOME/.var/app/app.zen_browser.zen.bak-$(date +%Y%m%d%H%M%S)"
+echo "Backup done. Now paste me the profiles.ini output above before we proceed to the actual copy."
+PROFILE_DIR="$HOME/.var/app/app.zen_browser.zen/.config/kkhfhl8e.Default (release)-1"
+SOURCE_DIR="$HOME/.zen/ya5civi8.Default (release)"
+# Sanity checks before touching anything
+echo "Source exists:"; ls -ld "$SOURCE_DIR"
+echo "Target exists:"; ls -ld "$PROFILE_DIR"
+# Wipe the old junk profile contents (folder itself stays, contents go)
+rm -rf "$PROFILE_DIR"
+mkdir -p "$PROFILE_DIR"
+# Copy your real profile in
+cp -a "$SOURCE_DIR"/. "$PROFILE_DIR"/
+# Fix ownership/permissions just in case (flatpak runs as your user, should be fine, but be safe)
+chmod 700 "$PROFILE_DIR"
+echo "=== Done. Verifying ==="
+ls "$PROFILE_DIR" | head -20
+du -sh "$PROFILE_DIR"
+echo "=== installs.ini ==="
+cat "$HOME/.var/app/app.zen_browser.zen/.config/installs.ini" 2>/dev/null
+echo "=== profiles.ini (recheck) ==="
+cat "$HOME/.var/app/app.zen_browser.zen/.config/profiles.ini" 2>/dev/null
+echo "=== Did a NEW profile folder just get created? ==="
+ls -la "$HOME/.var/app/app.zen_browser.zen/.config/" | grep -i "release\|profile\|study\|secendory"
+echo "=== Confirm our copied data is still actually there ==="
+ls "$HOME/.var/app/app.zen_browser.zen/.config/kkhfhl8e.Default (release)-1/bookmarkbackups" 2>/dev/null
+echo "=== Is there now ANOTHER profiles.ini key for a new install? ==="
+cat "$HOME/.var/app/app.zen_browser.zen/.config/profiles.ini"
+echo "=== What's actually inside kkhfhl8e right now ==="
+ls -la "$HOME/.var/app/app.zen_browser.zen/.config/kkhfhl8e.Default (release)-1/"
+echo "=== What's actually inside the ya5civi8 folder sitting in .config ==="
+ls -la "$HOME/.var/app/app.zen_browser.zen/.config/ya5civi8.Default (release)/" 2>/dev/null
+echo "=== Check flatpak's actual current install hash ==="
+flatpak info --show-metadata app.zen_browser.zen | grep -i instance 2>/dev/null
+flatpak run --command=true app.zen_browser.zen 2>&1 | head -5
+pgrep -af "app.zen_browser.zen"
+echo "---"
+ls -la /proc/$(pgrep -f "app/zen/zen --name" | head -1)/cwd 2>/dev/null
+echo "---"
+cat /proc/$(pgrep -f "app/zen/zen --name" |
+    cat /etc/xdg/xdg-desktop-portal/portals.conf 2>/dev/null
+    cat ~/.config/xdg-desktop-portal/portals.conf 2>/dev/null
+    ls /usr/share/xdg-desktop-portal/portals/
+xdg-desktop-portal -v
+mkdir -p ~/.config/xdg-desktop-portal
+cat > ~/.config/xdg-desktop-portal/portals.conf << 'EOF'
+[preferred]
+default=gtk
+EOF
+
+[preferred]
+default=gtk
+org.freedesktop.impl.portal.ScreenCast=wlr
+org.freedesktop.impl.portal.Screenshot=wlr
+systemctl --user daemon-reload
+systemctl --user restart xdg-desktop-portal.service
+zapzap
+systemctl --user status xdg-desktop-portal.service
+    cat ~/.config/autostart/*zapzap* 2>/dev/null
+exec-once = systemctl --user start xdg-desktop-portal.service xdg-desktop-portal-gtk.service
+systemctl --user start xdg-desktop-portal.service
+zapzap
+swaync --version
+cat ~/.config/swaync/config.json 2>/dev/null | head -5
+grep -n -i "exec\|battery\|full" ~/.config/mango/waybar/line/config.jsonc
+  "exec": "~/player_title.sh",
+cat ~/.local/submap.log
+cat ~/.local/submap.log
+grep -rn "submap.log" ~/.config/mango/
+cat /sys/class/power_supply/BAT*/status
+WAYLAND_DEBUG=1 swaync 2>&1 | tail -30
+WAYLAND_DEBUG=1 swaync 2>&1 | tail -30 | wl-copy 
+grep -n swaync ~/.config/*/autostart.sh ~/autostart.sh 2>/dev/null
+pgrep -a swaync
+nvim ~/.config/mango/autostart.sh
+pgrep -a swaync
+pkill -9 swaync
+sleep 1
+pgrep -a swaync
+mango --help 2>&1 | grep -i systemd
+man mango 2>&1 | grep -i systemd
+systemctl --user edit --full --force mango-session.target
+sudo systemctl edit ollama.service
+sudo ln -sf $(which nvim) /usr/local/bin/vi
+which nvim
 foot
-fish
-mango
-hyprland
-start-hyprland
-start-hyprland
-mango
-mango
-d
-mango
-echo $text
- $text="edge-tts -v en-US-AvaNeural -t text --write-media /tmp/tts_ouput.txt"
-text="edge-tts -v en-US-AvaNeural -t text --write-media /tmp/tts_ouput.txt"
-echo $text
-edge-tts -v en-US-AvaNeural -t "$text" 
-edge-tts -v en-US-AvaNeural -t "$text" --write-media /tmp/tts_ouput.txt
-start-hyprland 
-start-hyprland 
-echo $text
-text="edge-tts -v en-US-AvaNeural -t text --write-media /tmp/tts_ouput.txt"
-echo $text
-edge-playback --voice "en-IN-NeerjaNeural" --text "your text here"
-edge-playback --voice "en-US-AvaNeural" --text "your text here"
-edge-playback --voice "en-US-AvaNeural" --text "your text here"
-edge-playback --voice "en-US-AvaNeural" --text "your text here" -h
-edge-playback --voice "en-US-AvaNeural" --text "your text here" -mpv
-edge-playback --voice "en-US-AvaNeural" --text "your text here" --mpv
-edge-tts --voice "en-US-AvaNeural" --text "your text here" | mpv --no-config
- edge-tts --voice "en-US-AvaNeural" --text "your text here" | mpv --no-config -
-edge-tts --voice "en-US-AvaNeural" --text "your text here" | mpv --no-config --speed=1.9 -
-edge-tts --voice "en-US-AvaNeural" --text "your text here" | mpv --no-config --speed=1.9 -
-edge-tts --voice "en-US-AvaNeural" --text "$text" | mpv --no-config --speed=1.9 -
-start-hyprland 

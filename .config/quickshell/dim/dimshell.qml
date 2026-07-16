@@ -25,7 +25,7 @@ ShellRoot {
 			margins {
 				right:0
 				bottom: 0
-				top: -25
+				top: 0
 			}
 
 			implicitWidth: screen.width

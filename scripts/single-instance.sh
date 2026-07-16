@@ -17,6 +17,7 @@ elif [[ $x = lutris ]]; then
     if [[ -n $list ]]; then
         hyprctl dispatch focuswindow class:net.lutris.Lutris
     else
+        play ~/sound/notification.wav &
         lutris
     fi
 
@@ -36,6 +37,24 @@ elif [[ $x = firefox ]]; then
         hyprctl dispatch focuswindow class:firefox
     else
         firefox
+    fi
+
+elif [[ $x = floorp ]]; then
+    list=$(hyprctl -j clients | jq -r '.[].class' | sort -u | grep "microsoft-edge")
+
+    if [[ -n $list ]]; then
+        hyprctl dispatch focuswindow class:microsoft-edge
+    else
+        floorp
+    fi
+
+elif [[ $x = librawolf ]]; then
+    list=$(hyprctl -j clients | jq -r '.[].class' | sort -u | grep "microsoft-edge")
+
+    if [[ -n $list ]]; then
+        hyprctl dispatch focuswindow class:microsoft-edge
+    else
+        librawolf
     fi
 
 elif [[ $x = edge ]]; then

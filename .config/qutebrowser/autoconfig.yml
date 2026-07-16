@@ -16,10 +16,13 @@ settings:
     global: '#45475a'
   content.javascript.clipboard:
     https://chatgpt.com: access-paste
+    https://claude.ai: access-paste
     https://github.com: access-paste
     https://htmlcolorcodes.com: access-paste
   content.media.audio_capture:
     https://chatgpt.com: true
     https://www.instagram.com: true
+  content.register_protocol_handler:
+    https://mail.google.com?extsrc=mailto&url=%25s: true
   scrolling.smooth:
     global: false

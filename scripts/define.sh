@@ -17,7 +17,8 @@ query=$(curl -s --connect-timeout 5 --max-time 10 "https://api.dictionaryapi.dev
 def=$(echo "$query" | jq -r '[.[].meanings[] | {pos: .partOfSpeech, def: .definitions[].definition}] | .[:3].[] | "\n\(.pos). \(.def)"')
 
 # Requires a notification daemon to be installed
-notify-send -t 60000 "$word -" "$def"
+notify-send -t 60000 "$word -" "$def" &
+edge-tts --voice "en-US-AvaNeural" --text "$word" | mpv --no-config --speed=1 --volume=100 - &
 
 ### MORE OPTIONS :)
 

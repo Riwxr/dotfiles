@@ -1,14 +1,15 @@
 
 if status is-interactive
-	set_color $fish_color_keyword -o
-	cat -p ~/banner4.txt
-	set_color normal
-	
 
-    set -U fish_greeting ""
+    set -U fish_greeting '  ▘       
+▛▘▌▌▌▌▚▘▛▘
+▌ ▌▚▚▘▞▖▌ 
+'
 
+    set_color normal
+    set_color $fish_color_keyword -o
     set -gx PATH $HOME/.pyenv/bin $PATH
-
+set -x PYTHONPATH $HOME/RealtimeSTT $PYTHONPATH
 
 end
 

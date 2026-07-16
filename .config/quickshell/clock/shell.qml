@@ -28,7 +28,7 @@ ShellRoot {
 Item {
     anchors.horizontalCenter: parent.horizontalCenter
     anchors.top: parent.top
-    anchors.topMargin: 40
+    anchors.topMargin: 650
 
     property var currentDate: new Date()
     
@@ -43,8 +43,9 @@ Column {
     id: clockColumn
     anchors.fill: parent
     anchors.margins: 0
+    anchors.leftMargin: -1480
     anchors.horizontalCenter: parent.horizontalCenter
-    spacing: -30
+    spacing:-100
 
     property var currentDate: new Date()
 
