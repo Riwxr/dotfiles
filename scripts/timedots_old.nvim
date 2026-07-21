@@ -1,0 +1,24 @@
+#! /usr/bin/env bash
+
+hours=$(date +"%-I")
+mins=$(date +"%-M")
+
+min_in_fraction=$(((mins + 2) / 5))
+
+[[ $hours -eq 12 ]] && hours=0
+
+surplus_hours=$((12 - hours))
+surplus_mins=$((12 - min_in_fraction))
+
+for i in $(seq 1 "$hours"); do
+    [[ $((i % 3)) -eq 0 ]] && dot_hours+="┃" || dot_hours+="│"
+done
+
+for j in $(seq 1 "$min_in_fraction"); do
+    [[ $((j % 3)) -eq 0 ]] && dot_mins+="┃" || dot_mins+="│"
+done
+
+grave_hours=$(printf '%.0s`' $(seq 1 $surplus_hours))
+grave_mins=$(printf '%.0s`' $(seq 1 $surplus_mins))
+
+echo "$grave_hours$dot_hours  ^  $dot_mins$grave_mins"

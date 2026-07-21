@@ -1,0 +1,7 @@
+singleton Theme Theme.qml
+singleton Motion Motion.qml
+singleton Flags Flags.qml
+Pill 1.0 Pill.qml
+Pips 1.0 Pips.qml
+WorkspacePill 1.0 WorkspacePill.qml
+BatteryPill 1.0 BatteryPill.qml

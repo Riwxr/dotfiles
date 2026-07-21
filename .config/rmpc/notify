@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+blank=$(printf "\n ")
+notify-send "  Rmpc Deamon $blank" "   -    $TITLE  " -a toss -r 4
