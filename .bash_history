@@ -1,7 +1,3 @@
-  if echo "$line" | grep -q "SW_LID"; then
-    if echo "$line" | grep -q "value 1"; then
-      # Lid closed
-      brightnessctl g > "$SAVED"
       brightnessctl s 0
     elif echo "$line" | grep -q "value 0"; then
       # Lid opened
@@ -498,3 +494,7 @@ sudo systemctl edit ollama.service
 sudo ln -sf $(which nvim) /usr/local/bin/vi
 which nvim
 foot
+ls
+quit
+exitr
+exit
